@@ -1,0 +1,7 @@
+stages:
+  - collect_list_pages
+  - extract_list_items
+  - collect_detail_pages
+  - extract_detail_items
+  - merge_final_json
+  - validate_export

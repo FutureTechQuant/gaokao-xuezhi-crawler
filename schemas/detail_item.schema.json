@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": [
+    "source_id",
+    "source",
+    "entity_type",
+    "detail"
+  ]
+}

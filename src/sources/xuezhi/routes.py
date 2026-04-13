@@ -1,0 +1,2 @@
+LIST_ROUTES = {}
+DETAIL_ROUTES = {}

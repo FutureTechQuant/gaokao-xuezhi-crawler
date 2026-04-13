@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": [
+    "name",
+    "url",
+    "source",
+    "entity_type"
+  ]
+}

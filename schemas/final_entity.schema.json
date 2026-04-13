@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "entity_type",
+    "source",
+    "source_id",
+    "name",
+    "meta"
+  ]
+}
