@@ -1,0 +1,16 @@
+{
+  "stage": "stage_01_collect_list_pages",
+  "run_id": "2026-04-13T231719",
+  "created_at": "2026-04-13T23:17:28.869951+00:00",
+  "tasks": [
+    {
+      "task": "xuezhi_major",
+      "source": "xuezhi",
+      "entity_type": "major",
+      "count": 47,
+      "index_path": "data/stage/01_list_index/2026-04-13T231719/xuezhi_major.jsonl",
+      "meta_path": "data/stage/01_list_index/2026-04-13T231719/xuezhi_major.meta.json",
+      "raw_dir": "data/raw/xuezhi/major/list_pages/2026-04-13T231719"
+    }
+  ]
+}
