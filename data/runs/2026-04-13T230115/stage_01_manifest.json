@@ -1,0 +1,16 @@
+{
+  "stage": "stage_01_collect_list_pages",
+  "run_id": "2026-04-13T230115",
+  "created_at": "2026-04-13T23:01:20.896740+00:00",
+  "tasks": [
+    {
+      "task": "gaokao_university",
+      "source": "gaokao",
+      "entity_type": "university",
+      "count": 20,
+      "index_path": "data/stage/01_list_index/2026-04-13T230115/gaokao_university.jsonl",
+      "meta_path": "data/stage/01_list_index/2026-04-13T230115/gaokao_university.meta.json",
+      "raw_dir": "data/raw/gaokao/university/list_pages/2026-04-13T230115"
+    }
+  ]
+}
