@@ -66,107 +66,118 @@ def _fetch_json(session, url):
     return resp.json()
 
 
-def _normalize_major_items(data, payload_url):
-    results = []
-    seen = set()
+def _get_rows_from_payload(data, entity_type):
+    if not isinstance(data, dict):
+        return []
 
-    rows = data if isinstance(data, list) else []
-    for item in rows:
-        if not isinstance(item, dict):
-            continue
+    data_block = data.get('data') or {}
+    if not isinstance(data_block, dict):
+        return []
 
-        name = clean_text(item.get('zymc'))
-        if not name or name in EXCLUDED_NAMES:
-            continue
-
-        spec_id = clean_text(item.get('specId') or item.get('zyId') or item.get('zydm'))
-        if not spec_id:
-            continue
-
-        sig = spec_id
-        if sig in seen:
-            continue
-        seen.add(sig)
-
-        results.append({
-            'source': 'xuezhi',
-            'entity_type': 'major',
-            'item_id': spec_id,
-            'name': name,
-            'detail_url': f'https://xz.chsi.com.cn/speciality/detail.action?specId={spec_id}',
-            'payload_url': payload_url,
-            'raw': item,
-            'collected_at': iso_now(),
-        })
-
-    return results
-
-
-def _normalize_career_items(data, payload_url):
-    results = []
-    seen = set()
-
-    rows = data if isinstance(data, list) else []
-    for item in rows:
-        if not isinstance(item, dict):
-            continue
-
-        name = clean_text(item.get('title') or item.get('zwmc'))
-        if not name:
-            continue
-
-        occ_id = clean_text(item.get('zhiyId') or item.get('occupationId') or item.get('id'))
-        if not occ_id:
-            continue
-
-        sig = occ_id
-        if sig in seen:
-            continue
-        seen.add(sig)
-
-        results.append({
-            'source': 'xuezhi',
-            'entity_type': 'career',
-            'item_id': occ_id,
-            'name': name,
-            'detail_url': f'https://xz.chsi.com.cn/occupation/occudetail.action?id={occ_id}',
-            'payload_url': payload_url,
-            'raw': item,
-            'collected_at': iso_now(),
-        })
-
-    return results
-
-
-def _extract_items(data, entity_type, payload_url):
     if entity_type == 'major':
-        return _normalize_major_items(data, payload_url)
-    return _normalize_career_items(data, payload_url)
+        rows = data_block.get('pageArray') or []
+    else:
+        rows = data_block.get('zhiyArray') or []
+
+    return rows if isinstance(rows, list) else []
+
+
+def _normalize_major_item(item, payload_url):
+    if not isinstance(item, dict):
+        return None
+
+    name = clean_text(item.get('zymc'))
+    if not name or name in EXCLUDED_NAMES:
+        return None
+
+    spec_id = clean_text(item.get('specId'))
+    item_id = clean_text(spec_id or item.get('zyId') or item.get('zydm'))
+    if not item_id:
+        return None
+
+    detail_url = ''
+    if spec_id:
+        detail_url = f'https://xz.chsi.com.cn/speciality/detail.action?specId={spec_id}'
+
+    return {
+        'source': 'xuezhi',
+        'entity_type': 'major',
+        'item_id': item_id,
+        'name': name,
+        'detail_url': detail_url,
+        'payload_url': payload_url,
+        'raw': item,
+        'collected_at': iso_now(),
+    }
+
+
+def _normalize_career_item(item, payload_url):
+    if not isinstance(item, dict):
+        return None
+
+    name = clean_text(item.get('title') or item.get('zwmc'))
+    if not name:
+        return None
+
+    occ_id = clean_text(item.get('zhiyId') or item.get('occupationId') or item.get('id'))
+    if not occ_id:
+        return None
+
+    detail_url = f'https://xz.chsi.com.cn/occupation/occudetail.action?id={occ_id}'
+
+    return {
+        'source': 'xuezhi',
+        'entity_type': 'career',
+        'item_id': occ_id,
+        'name': name,
+        'detail_url': detail_url,
+        'payload_url': payload_url,
+        'raw': item,
+        'collected_at': iso_now(),
+    }
+
+
+def _normalize_rows(rows, entity_type, payload_url):
+    results = []
+    seen = set()
+
+    normalizer = _normalize_major_item if entity_type == 'major' else _normalize_career_item
+
+    for item in rows:
+        normalized = normalizer(item, payload_url)
+        if not normalized:
+            continue
+
+        sig = normalized['item_id']
+        if sig in seen:
+            continue
+        seen.add(sig)
+        results.append(normalized)
+
+    return results
+
+
+def _extract_items_from_payload(payload_url, data, entity_type):
+    rows = _get_rows_from_payload(data, entity_type)
+    return _normalize_rows(rows, entity_type, payload_url)
 
 
 def _paginate_items(entity_type, template_url, user_agent, referer, max_pages=0):
     session = _build_session(user_agent, referer)
+
+    first_page_data = _fetch_json(session, template_url)
+    first_page_items = _extract_items_from_payload(template_url, first_page_data, entity_type)
+    first_page_rows = _get_rows_from_payload(first_page_data, entity_type)
+    page_size = len(first_page_rows)
+
+    if not first_page_items:
+        return [], []
+
     all_items = []
-    seen = set()
     api_pages = []
+    seen = set()
 
-    page_no = 1
-    while True:
-        if max_pages and page_no > max_pages:
-            break
-
-        if entity_type == 'major':
-            page_size = 20
-            start = (page_no - 1) * page_size
-            page_url = _replace_query(template_url, start=start)
-        else:
-            page_size = 10
-            start = (page_no - 1) * page_size
-            page_url = _replace_query(template_url, start=start, curPage=page_no, pageCount=page_size)
-
-        data = _fetch_json(session, page_url)
-        items = _extract_items(data, entity_type, page_url)
-
+    def add_items(items):
         deduped = []
         for item in items:
             sig = item['item_id']
@@ -174,7 +185,41 @@ def _paginate_items(entity_type, template_url, user_agent, referer, max_pages=0)
                 continue
             seen.add(sig)
             deduped.append(item)
+        return deduped
 
+    first_deduped = add_items(first_page_items)
+    all_items.extend(first_deduped)
+    api_pages.append({
+        'page_no': 1,
+        'url': template_url,
+        'count': len(first_deduped),
+    })
+
+    if page_size <= 0:
+        return all_items, api_pages
+
+    page_no = 2
+    while True:
+        if max_pages and page_no > max_pages:
+            break
+
+        start = (page_no - 1) * page_size
+        if entity_type == 'major':
+            page_url = _replace_query(template_url, start=start)
+        else:
+            page_url = _replace_query(template_url, start=start, curPage=page_no, pageCount=page_size)
+
+        try:
+            page_data = _fetch_json(session, page_url)
+        except Exception:
+            break
+
+        rows = _get_rows_from_payload(page_data, entity_type)
+        if not rows:
+            break
+
+        items = _extract_items_from_payload(page_url, page_data, entity_type)
+        deduped = add_items(items)
         if not deduped:
             break
 
@@ -185,7 +230,7 @@ def _paginate_items(entity_type, template_url, user_agent, referer, max_pages=0)
             'count': len(deduped),
         })
 
-        if len(items) < page_size:
+        if len(rows) < page_size:
             break
 
         page_no += 1
