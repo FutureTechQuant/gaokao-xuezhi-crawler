@@ -86,7 +86,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          git add data/raw/xuezhi/career/ data/stage/01_list_index/ data/runs/
+          git add -f data/raw/xuezhi/career/ data/stage/01_list_index/ data/runs/
 
           if git diff --staged --quiet; then
             echo "No changes to commit."
