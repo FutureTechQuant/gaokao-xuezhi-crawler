@@ -1,0 +1,1075 @@
+<!DOCTYPE html><html><head>
+        <meta charset="utf-8">
+        <title>职业探索_学职平台</title>
+        <meta name="robots" content="all">
+        <meta name="keywords" content="教育部就业指导中心,职业测评,职业规划,职业指导,专业选择,毕业生就业,高考志愿填报">
+        <meta name="description" content="教育部指导建立，面向大学生群体的学业与职业发展平台。为学生选择专业、择业、就业，高校人才培养、选拔、就业指导，以及企业人才储备、招聘提供全面专业的服务。">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <link rel="shortcut icon" href="https://t1.chei.com.cn/xz/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://t1.chei.com.cn/common/ch/iconfont.css">
+        <link rel="stylesheet" href="https://t1.chei.com.cn/common/ch/chicon/iconfont.css">
+        <link rel="stylesheet" href="https://t1.chei.com.cn/common/plugins/swiper/5.2.0/swiper.min.css">
+        <link rel="stylesheet" href="https://t1.chei.com.cn/common/vue-plugins/viewer/css/viewer.min.css">
+        <link rel="stylesheet" href="https://t1.chei.com.cn/xz/assets/web/css/app-3.0.8.css">
+        <style>
+            .error-border {
+                border: 1px dashed #FDABA2;
+                padding: 10px;
+            }
+            .error-tip {
+                background: #FFECE8;
+                color: #13161b;
+                font-size: 14px;
+                padding: 6px 8px;
+                border-radius: 4px;
+                margin-top: 10px;
+            }
+            .xz-logo-wrapper .xz-login-box {
+                display: flex;
+            }
+            .top-nav-search-input {
+                margin-right: 16px;
+            }
+            .top-nav-search-input .search-input {
+                width: 200px;
+                border-radius: 16px;
+                border: 1px solid #d4d9d7;
+                height: 32px;
+                color: #13161B;
+                background: #FFF;
+                border-radius: 4px;
+                outline: none;
+                padding: 0 28px 0 8px;
+                box-sizing: border-box;
+                position: relative;
+                display: block;
+            }
+            .top-nav-search-input .search-input:focus {
+                border: 1px solid #294ed6;
+            }
+            .top-nav-search-input .search-input::after {
+                display: block;
+                content: '';
+                width: 20px;
+                height: 20px;
+                background: url(https://t2.chei.com.cn/common/images/icon-search.svg) center center no-repeat;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+            }
+            .xz-login-box .top-nav-search-input {
+                display: block;
+                position: relative;
+            }
+            .xz-login-box .search-button {
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: url(https://t2.chei.com.cn/common/images/icon-search.svg) center center no-repeat;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                position: absolute;
+                right: 7px;
+                top: 6px;
+            }
+            .ch-header-divide {
+                margin-right: 16px;
+                color: #999;
+                font-size: 16px;
+            }
+            .xz-logo-wrapper {
+                height: 110px;
+                padding-top: 5px;
+            }
+            .top-nav-wrapper .top-nav-index a {
+                margin-right: 37px;
+            }
+            .xz-about-block a {
+                width: 150px;
+            }
+        </style>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-YKHKPH396P&amp;cx=c&amp;gtm=4e64d0h2"></script><script src="https://hm.baidu.com/hm.js?9941ee4f9005f2fbc48431bf71f05647"></script><script src="https://t1.chei.com.cn/common/wap/js/wap.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/js/vue/2.6.10/vue.min.js"></script>
+        
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9941ee4f9005f2fbc48431bf71f05647";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-100524-14"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-100524-14');
+function gaTrackerOutboundLink(params) { //ga链接埋点
+    gtag('event', params.eventAction, {
+        'event_category': params.eventCategory,
+        'event_label': params.eventLabel
+    });
+    return true;
+}
+function gaTrackerOutbound(params) { //ga方法事件埋点
+    gtag('event', params.eventAction, {
+        'event_category': params.eventCategory,
+        'event_label': params.eventLabel
+    });
+}
+</script>
+    </head>
+    <body>
+        <div id="app" class="xz-layout"><div class="xz-content"><!----> <div class="bg-white"><div class="xz-logo-wrapper"><a href="/" class="xz-logo"></a> <span style="font-size: 14px; margin-left: 2px; color: rgb(117, 120, 129); margin-top: 46px; display: inline-block;">全国大学生学业与职业发展平台</span> <div class="xz-login-box"><div id="top-nav-input" class="top-nav-search-input"><form action="https://cn.bing.com/search" target="_blank" method="get" class="site-search"><input type="hidden" name="q" value="" class="realQuery"> <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" value="" maxlength="100" class="search-input"> <button type="submit" class="search-button"></button></form></div> <a href="/login.action" class="login-btn">登录</a> <a href="https://account.chsi.com.cn/account/preregister.action?from=ixy-login" target="_blank" rel="noopenner noreferrer" class="regist-btn">注册</a></div></div> <div class="xz-nav-wrapper"><div class="wrap1180 clearfix"><a href="/home.action" class="">首页</a> <a href="/speciality/index.action" class="">专业洞察</a> <a href="/survey/index.action" class="">职业测评</a> <a href="/occupation/index.action" class="selected">职业探索</a> <a href="/occucase/index.action" class="">职业人物</a> <a href="/video/index.action" class="">职业微视频</a> <a href="/jyzdk/index.action" class="">就业指导课</a> <a href="/zthz/index.action" class="">专题汇总</a></div></div></div> <div class="wrap1180"><!----> <div class="xz-zhiyts-top"><div class="title">
+            你知道自己适合什么职业了吗？
+        </div> <div class="desc">
+            小职这里根据大数据为你推荐了一些与你的专业、兴趣、价值观相匹配的职业，快去探索下职位的具体内容吧！同时你也可以通过搜索职业信息库，收藏喜欢的职业来确定自己的职业目标哦！
+        </div></div> <h3 class="xz-h3">我的职业推荐清单</h3> <div class="zytj-unlogin-box"><a href="/login.action" class="zytj-unlogin-btn">
+                登录账号，解锁与您所学专业匹配的职业！
+                <i class="ivu-icon ivu-icon-md-arrow-round-forward"></i></a></div> <a href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkzNDIxOTkwMQ==&amp;hid=4&amp;sn=54fceeb0784f9e8e505d368e2730e965&amp;scene=18" target="_blank" rel="noopenner noreferrer" class="xz-zyrw-zhanwei_home"><img src="https://t4.chei.com.cn/xz/assets/web/images/zhiyrw-sygh-home.jpg" alt=""></a> <h3 class="xz-h3">探索更多感兴趣的职业</h3> <div class="xz-zhiyts-bottom clearfix"><div class="zhiyts-search-box"><div class="ivu-input-wrapper ivu-input-wrapper-default ivu-input-type-text ivu-input-group ivu-input-group-default ivu-input-group-with-append ivu-input-with-search"><!----> <!----> <i class="ivu-icon ivu-icon-ios-loading ivu-load-loop ivu-input-icon ivu-input-icon-validate"></i> <input autocomplete="off" spellcheck="false" type="text" placeholder="输入职业" class="ivu-input ivu-input-default"> <div class="ivu-input-group-append ivu-input-search">搜索</div></div> <div class="hy-type-box clearfix"><div class="hy-l">职业分类：</div> <div class="hy-r"><div class="menu-right"><div class="menu-hy"><a class="selected">全部</a> <a class="">互联网/通信</a><a class="">金融/贸易</a><a class="">建筑/工程</a><a class="">医疗/生物/化工</a><a class="">农林牧渔</a><a class="">教育/行政</a><a class="">艺术/旅游</a><a class="">公务员/法律/公共服务
+</a><a class="">青年创业者</a></div> <!----></div></div></div> <div class="xz-zyrw-list-page zhiyts-zhiy-list"><div class="zyrw-list-warp clearfix"><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=ti9j2hc6hykdnmt6" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/wgh5idk76h2ihh18.jpeg" alt="" class="img"> <span class="text">互联网/通信</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="网络工程师" class="title-text">网络工程师</span></div> <div class="des"><p>网络工程师的工作内容：</p>
+<p>1. 负责机房内的网络连接及网络间的系统配置。</p>
+<p>2.&nbsp;负责系统网络的拓扑图的建立和完善，并做好系统路由的解析和资料的整理。</p>
+<p>3.&nbsp;负责机房线路的布置和协议的规范工作。</p>
+<p>4.&nbsp;负责计算机间的网络连接及网络共享，并负责网络间安全性的设置。</p>
+<p>5.&nbsp;负责对网络障碍的分析，及时处理和解决网络中出现的问题。</p>
+<p>6.&nbsp;利用网络测试分析仪，定期对现有的网络进行优化工作。</p>
+<p>7.&nbsp;负责网络平台框架的布局和设置；如java软件工程师和java网络工程师。</p>
+<p>8.&nbsp;负责网络平台信息的采集和录入支持；如：信息技术工程师。</p>
+<p>9.&nbsp;负责网络平台的推广方向和推广模式，如：网络推广大师。</p>
+<p>10.&nbsp;负责网络平台的运作方向以及平台维护管理等工作，如：网络运营工程师。</p>
+<p>11.&nbsp;负责网络平台发展到一定阶段的商业模式和盈利方向；如：网站商务工程师，电子商务工程师。</p>
+<p>12.&nbsp;负责网络产品的定位和封装；如：项目工程师。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>72</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>53</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=k766c0xydz3ynv5z" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/2m0p6hihlddqmbhl.jpeg" alt="" class="img"> <span class="text">建筑/工程</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="质量检验工程技术人员" class="title-text">质量检验工程技术人员</span></div> <div class="des"><p>从事技术质量和服务质量等的研究、管理、监督、检查、检验、分析、鉴定等的工程技术人员。从事的工作主要包括：</p><div>(1)进行产品质量、质量管理体系及系统可靠性设计、研究和控制；<br>(2)组织实施质量监督检查；<br>(3)进行质量的检查、检验、分析、鉴定、咨询；<br>(4)进行产品认证、生产许可证、体系认证、审核员和评审员注册、质量检验机构和实验室考核等合格评定管理；<br>(5)调解质量纠纷，组织对重大质量事故调查分析；<br>(6)研究开发检验技术、检验方法、检验仪器设备；<br>(7)制定质量技术法规并监督实施；<br>(8)设计、实施、改进、评价质量与可靠性信息系统。</div></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>71</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>45</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=ib16z5l3g8mfjuzv" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/9dxxtu7p5qtu6vyp.jpeg" alt="" class="img"> <span class="text">互联网/通信</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="通信传输接入工程师" class="title-text">通信传输接入工程师</span></div> <div class="des"><p>通信传输与接入工程师负责外围设备、集中监控设备、网管设备的技术维护工作，保证设备正常运行；负责网络信号的传送、光电转换、复用，保证网络安全、有效地运行。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>13</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>11</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=621qz6e6s682xy2z" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/h1o1o79s7lapp3tr.jpeg" alt="" class="img"> <span class="text">教育/行政</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="会计人员" class="title-text">会计人员</span></div> <div class="des"><p>在国家机关、 社会团体、 企业、 事业单位和其他组织中进行会计核算、 实行会计监督的专业人员。</p>
+<p>工作任务包括不限于：根据实际发生的经济业务或者事项进行会计核算；对单位的经济活动或者事项进行会计监督；制订单位的内部会计管理制度；分析、运用财务、业务等信息，服务单位规划、决策、控制、评价等工作。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>206</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>163</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=aq576ipz6jjimom6" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/krhkd2wxhnch6mr2.jpeg" alt="" class="img"> <span class="text">建筑/工程</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="测绘和地理信息工程技术人员" class="title-text">测绘和地理信息工程技术人员</span></div> <div class="des"><p><span>测绘和地理信息工程技术人员主要从事地理信息系统（</span>GIS<span>）设计开发</span><span>，</span><span>地理信息数据库采集与集成、建库与管理、分析与应用、分发与服务等的专业人员。他们</span><span>利用摄影机或遥感器获取目标物的影像及相应电磁波信息并进行分析和处理，揭示其几何、物理特性，以确定表达目标物的形状、大小、空间位置、性质及其变化规律。</span></p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>39</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>8</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=gg7aqfl2n4q5las5" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/o2xpq7bedu5li42g.jpeg" alt="" class="img"> <span class="text">艺术/旅游</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="酒店管理人员" class="title-text">酒店管理人员</span></div> <div class="des"><p>酒店管理人员的功能主要有以下几种：</p><p>一）策划：策划即预先确定目标及方针，然后概括目标，制定一套详细的实施方案来达到目标。酒店管理策划是指如何实现目标，要实现酒店管理目标，就必须根据酒店的实际情况，酒店资源的优缺点，将来的发展趋势和方向，制定可行性方案。</p><p>二）组织：组织是指充分利用酒店资源，以便最有效地起到管理的目标，酒店是一个综合性的企业，它有一套完整的系统，组织就是充分地、有效地利用酒店各个职能单位，每项设备、每个员工在酒店经营活动中，协调一致地发挥其功能和作用。</p><p>三）领导：领导是指促进和指挥属下员工履行岗位职责，对员工给予指导和监督，以确保得到最高和最佳的工作效率。酒店领导最有效的方法是实行管理逐级负责制，一级管一级。</p><p>四）控制：控制即指监督和检查计划的执行情况和目标的实现程度，一个计划的制订、传达、贯彻和执行，必须进行监督．检查和考核，看是否按计划执行，执行过程中有没有发生偏差或不妥，如有就必须及时给予指正或作适当的修正，使计划逐步完善，并能达到理想的经营目标，这些活动即称为控制。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>30</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>22</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=nanojqr9t3kgxp6p" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/ok15plt92g0dgtyr.jpeg" alt="" class="img"> <span class="text">建筑/工程</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="工程监理人员" class="title-text">工程监理人员</span></div> <div class="des"><p>工程监理人员是指培养掌握工程建设监理的基本理论和知识，具备岗位职业能力，从事工程施工现场监理的高级技术应用性专门人才。从事的主要工作包括：工程施工现场的质量控制、进度控制和投资控制能力。</p><p>该职业资格：助理工程监理工程师、工程监理工程师、高级工程监理工程师。</p><p>申报条件：（具备下列条件之一）</p><p>助理工程监理工程师：</p><p>1、本科以上或同等学历学生；</p><p>2、大专以上或同等学历应届毕业生并有相关实践经验者；</p><p>工程监理工程师：</p><p>1、已通过助理工程监理工程师资格认证者；</p><p>2、研究生以上或同等学历应届毕业生；</p><p>3、本科以上或同等学历并从事相关工作一年以上者；</p><p>4、大专以上或同等学历并从事相关工作两年以上者。</p><p>高级工程监理工程师：</p><p>1、已通过工程监理工程师资格认证者；</p><p>2、研究生以上或同等学历并从事相关工作一年以上者；</p><p>3、本科以上或同等学历并从事相关工作两年以上者；</p><p>4、大专以上或同等学历并从事相关工作三年以上者。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>21</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>21</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=tfi2q7v8n6fihe92" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/spcleumlgwf3ky5g.jpeg" alt="" class="img"> <span class="text">医疗/生物/化工</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="药剂师" class="title-text">药剂师</span></div> <div class="des"><p>药剂师是在医疗机构中，根据医师处方进行药物配置和分发，并辅助医师合理用药的人员。由于在我国有中西医之分，药剂师也被分为西医药剂师和中医药剂师。 在医院人员编制中，药剂人员占医院各类人员总人数的8%。药剂人员，包括中药、西药、药检等方面人员。其技术职称为：主任药师、副主任药师、主管药师和药师。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>81</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>64</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=gcpb9j818gh7i8rv" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/xmtolpa3eog0pzns.jpeg" alt="" class="img"> <span class="text">公务员/法律/公共服务</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="公务员(地市级机关)" class="title-text">公务员(地市级机关)</span></div> <div class="des"><p>公务员，全称为国家公务员，是各国负责统筹管理经济社会秩序和国家公共资源，维护国家法律规定贯彻执行的公职人员。在中国，公务员是指依法履行公职、纳入国家行政编制、由国家财政负担工资福利的工作人员。公务员职位按职位的性质、特点和管理需要，划分为综合管理类、专业技术类和行政执法类等类别。国务院根据中华人民共和国公务员法，对于具职位特殊性，需单独管理的，可增设其他职位类别。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>67</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>31</span></div></div></a><a target="_blank" rel="noopenner noreferrer" href="/occupation/occudetail.action?id=xbz5o9j8vhsxjqba" class="zyrw-list-item"><div class="zyrw-list-left"><img src="https://t2.chei.com.cn/xzpt/survey/cdn/showimg/qpvx1qlod0eglqjy.jpeg" alt="" class="img"> <span class="text">农林牧渔</span></div> <div class="zyrw-list-right"><div class="title"><!----> <!----> <span title="农业经理人" class="title-text">农业经理人</span></div> <div class="des"><p>国际社会中，发达国家现代化的农业生产管理由专业群体负责组织实施。中国传统农业向现代农业的转变，实现产业化、规模化、现代化的农业生产，促成了生产经营管理活动的专业化，造就了农业经理人群体。</p>
+<p>20世纪90年代，山东潍坊提出并实施了“农业产业化”的发展思路。随着全国农业产业化的推广，出现了以农民专业合作社、规模适度家庭农场为服务对象，以薪酬和分红为收入来源，具有明确分工与活动领域的职业劳动者。2007年《中华人民共和国农民专业合作社法》开始实施，明确规定：农民专业合作社可以“决定聘用经营管理人员和专业技术人员的数量、资格和任期”，确立了农业经理人的法律地位。2010年起，四川崇州以试行“农业共营制”破解土地退租困局，将农地连片并动员、引进种田能手经营水稻生产，实现了土地承包与经营权的分离，巩固了农业经理人的社会基础。2013年，按照中央1号文件提出构建农业规模化经营体系的要求，开始以加速土地流转促进规模化经营，农业经济合作组织和家庭农场的数量增加、经营规模扩大，进一步强化了对农业经理人的人才需求。2018年，党中央、国务院印发《关于实施乡村振兴战略的意见》，明确要求“全面建立高素质农民制度，完善配套政策体系”，将农业经理人纳入国家职业分类已势在必行。</p></div> <div class="other"><span class="collection"><i class="ivu-icon ivu-icon-md-star"></i>8</span> <span class="praise"><i class="ivu-icon ivu-icon-md-thumbs-up"></i>4</span></div></div></a> <!----></div> <div class="xz-zyrw-page"><ul class="ivu-page"><!----> <li title="上一页" class="ivu-page-prev ivu-page-disabled"><a><i class="ivu-icon ivu-icon-ios-arrow-back"></i></a></li> <li title="1" class="ivu-page-item ivu-page-item-active"><a>1</a></li> <!----> <!----> <!----> <!----> <!----> <li title="2" class="ivu-page-item"><a>2</a></li> <li title="3" class="ivu-page-item"><a>3</a></li> <!----> <li title="向后 5 页" class="ivu-page-item-jump-next"><a><i class="ivu-icon ivu-icon-ios-arrow-forward"></i></a></li> <li title="14" class="ivu-page-item"><a>14</a></li> <li title="下一页" class="ivu-page-next"><a><i class="ivu-icon ivu-icon-ios-arrow-forward"></i></a></li> <!----></ul></div></div></div> <div class="add-zhiy-box"><div class="margin-bottom-20"><h3>近期上线</h3> <a href="/occupation/occudetail.action?id=xtvmxi3l6eisepnn" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">企业人力资源管理师（人才测评师）</a><a href="/occupation/occudetail.action?id=06efmvvwqkdys5d9" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">文化经纪人</a><a href="/occupation/occudetail.action?id=no1863dza4gdpyqw" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">社会工作者</a><a href="/occupation/occudetail.action?id=s3pcllbkocvosnhr" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">康复科医师</a><a href="/occupation/occudetail.action?id=jd1w5tudb83hu857" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">城乡规划工程技术人员</a><a href="/occupation/occudetail.action?id=kiegdejp3oj381v2" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">宠物医师</a><a href="/occupation/occudetail.action?id=uniq6brplzgjv3s1" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">调香师</a><a href="/occupation/occudetail.action?id=07bzqxkcq3uhc42u" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">民宿管家</a><a href="/occupation/occudetail.action?id=n1lbpt1zbsdo4sdt" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">机器人工程技术人员</a><a href="/occupation/occudetail.action?id=mkq28yqmsqmdzk62" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">老年人能力评估师</a><a href="/occupation/occudetail.action?id=njk6i488h9p6qj3y" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">康复辅助技术咨询师</a><a href="/occupation/occudetail.action?id=do3lyvvic713h5du" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">物业管理师</a><a href="/occupation/occudetail.action?id=xkob2s0qbxc89piw" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">人工智能工程技术人员</a></div> <div><h3>热门职业</h3> <a href="/occupation/occudetail.action?id=03tcdtplcgjn5d0z" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">电子竞技员</a><a href="/occupation/occudetail.action?id=7dlf1ar4daymqgk7" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">集成电路工程技术人员</a><a href="/occupation/occudetail.action?id=x89oekjii20or0uo" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">会展策划专业人员</a><a href="/occupation/occudetail.action?id=g1jzaejfdify7f7c" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">云计算工程技术人员</a><a href="/occupation/occudetail.action?id=p39xhdcywc63p4wl" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">电子商务师</a><a href="/occupation/occudetail.action?id=zfw1jp63kjujkeuh" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">保险销售人员</a><a href="/occupation/occudetail.action?id=zqi6izw9upyku4zb" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">游戏开发工程师</a><a href="/occupation/occudetail.action?id=s72jk6hk09qu8jt8" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">园艺技术人员</a><a href="/occupation/occudetail.action?id=zgbsyg7o1el9dwga" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">口腔科医师</a><a href="/occupation/occudetail.action?id=37sahw5sfh8kphht" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">企业法务人员</a><a href="/occupation/occudetail.action?id=7i088grumb4sfpo0" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">审计人员</a><a href="/occupation/occudetail.action?id=j4y9riyzrl3q4hre" target="_blank" rel="noopenner noreferrer" class="add-zhiy-item">汽车工程技术人员</a></div></div></div></div></div> <div class="xz-side-menu"><div class="dcwj-item-warp"><div class="dcwj-item-close"><span class="close-icon"></span></div> <a href="/cp/survey/yhdy/show.action?visitorId=07671e2e1c8a1d9a12a58ee61b03cd8d" target="_blank" rel="noopenner noreferrer" class="dcwj-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 324" width="324" height="324" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_2"><rect width="324" height="324" x="0" y="0"></rect></clipPath><image xlink:href="/assets/wap/images/dcwj/img_0.png"></image><image xlink:href="/assets/wap/images/dcwj/img_1.png"></image><image xlink:href="/assets/wap/images/dcwj/img_2.png"></image><mask id="__lottie_element_6" mask-type="alpha"><g transform="matrix(1,0,0,1,162,162)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(2.319819927215576,0,0,1.4509799480438232,-9.713000297546387,-102.08899688720703)"><path fill="rgb(255,202,51)" fill-opacity="1" d=" M0,-60.75199890136719 C44.133235931396484,-60.75199890136719 79.96600341796875,-33.529029846191406 79.96600341796875,0 C79.96600341796875,33.529029846191406 44.133235931396484,60.75199890136719 0,60.75199890136719 C-44.133235931396484,60.75199890136719 -79.96600341796875,33.529029846191406 -79.96600341796875,0 C-79.96600341796875,-33.529029846191406 -44.133235931396484,-60.75199890136719 0,-60.75199890136719z"></path><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,202,51)" stroke-opacity="1" stroke-width="1" d=" M0,-60.75199890136719 C44.133235931396484,-60.75199890136719 79.96600341796875,-33.529029846191406 79.96600341796875,0 C79.96600341796875,33.529029846191406 44.133235931396484,60.75199890136719 0,60.75199890136719 C-44.133235931396484,60.75199890136719 -79.96600341796875,33.529029846191406 -79.96600341796875,0 C-79.96600341796875,-33.529029846191406 -44.133235931396484,-60.75199890136719 0,-60.75199890136719z"></path></g></g></mask></defs><g clip-path="url(#__lottie_element_2)"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><image width="324px" height="324px" preserveAspectRatio="xMidYMid slice" xlink:href="/assets/wap/images/dcwj/img_2.png"></image></g><g mask="url(#__lottie_element_6)" style="display: block;"><g transform="matrix(1,0,0,1,6,12)" opacity="1"><image width="308px" height="85px" preserveAspectRatio="xMidYMid slice" xlink:href="/assets/wap/images/dcwj/img_1.png"></image></g></g><g transform="matrix(0.9843804836273193,0.1760540008544922,-0.1760540008544922,0.9843804836273193,219.57748413085938,96.43368530273438)" opacity="1" style="display: block;"><image width="69px" height="97px" preserveAspectRatio="xMidYMid slice" xlink:href="/assets/wap/images/dcwj/img_0.png"></image></g></g></svg></a></div> <a href="/cp/report/index.action" target="_blank" rel="noopenner noreferrer" class="xzbg-item"></a> <div class="ewm-item"><div class="ewm-container" style="display: none;"><div class="ewm-box"><img src="https://t3.chei.com.cn/xz/assets/web/images/xz-ewm.jpg" width="118" alt=""></div></div></div> <div class="back-top-btn"></div></div> <!----> <!----></div>
+        
+
+<style>
+    .footer-wrapper {
+        line-height: 30px;
+        background: #282828;
+        color: #ababab;
+        margin-top: -198px;
+        font-size: 14px;
+    }
+    .footer-wrapper a {
+        color: #ababab;
+    }
+    .footer-wrapper .footer {
+        position: relative;
+        width: 1180px;
+        height: 198px;
+        margin: 0 auto;
+    }
+    .footer-wrapper .footer-list {
+        position: absolute;
+        top: 32px;
+        left: 0px;
+    }
+    .footer-wrapper .footer-list a {
+        margin-right: 15px;
+    }
+    .footer-wrapper .footer-units {
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+    .footer-wrapper .footer-media {
+        position: absolute;
+        top: 42px;
+        right: 0;
+        text-align: center;
+    }
+    .footer-wrapper .footer-media img {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-wrapper .footer-media .iconfont {
+        margin-right: 5px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    .footer-wrapper .footer-msg {
+        position: absolute;
+        top: 32px;
+        right: 160px;
+    }
+</style>
+<div class="footer-wrapper">
+    <div class="footer">
+        <div class="footer-list">
+            <a href="//www.chsi.com.cn/" target="_blank" rel="noopenner noreferrer">学信网</a>
+            <a href="https://www.chsi.com.cn/about/copyright.shtml" target="_blank" rel="noopenner noreferrer">版权声明</a>
+            <a href="/showoriorg.action" target="_blank" rel="noopenner noreferrer">鸣谢单位</a>
+            <a href="/about.action" target="_blank" rel="noopenner noreferrer">关于我们</a>
+            <a href="http://www.chsi.com.cn/about/contact.shtml" target="_blank" rel="noopenner noreferrer">联系我们</a>
+        </div>
+        <div class="footer-units">
+            主办单位：<a href="https://chesicc.chsi.com.cn/" target="_blank" rel="noopenner noreferrer">教育部学生服务与素质发展中心</a><br>
+            Copyright © 2003-2026 <a href="//www.chsi.com.cn/" target="_blank" rel="noopenner noreferrer">学信网</a> All Rights Reserved<br>
+            <a href="https://beian.miit.gov.cn" target="_blank" rel="noopenner noreferrer">京ICP备19004913号-1</a>
+            <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009747" target="_blank" rel="noopenner noreferrer">
+                <img src="https://t1.chei.com.cn/chsi/images/jgwab.svg" style="vertical-align: middle; margin-bottom: 2px; margin-left: 8px;">
+                京公网安备11010202009747号
+            </a>
+        </div>
+        <div class="footer-msg">
+            客服热线：010-67410388<br>
+            客服邮箱：kefu@chsi.com.cn
+        </div>
+        <div class="footer-media">
+            <div class="footer-ewm">
+                <img src="https://t3.chei.com.cn/xz/assets/web/images/xz-ewm.jpg" width="75">
+            </div>
+            <div class="footer-ewm-text">官方微信</div>
+        </div>
+    </div>
+</div>
+        <script src="https://t1.chei.com.cn/common/plugins/swiper/5.2.0/swiper.min.js"></script>
+        <script src="https://t2.chei.com.cn/xz/assets/common/js/lottie.js"></script>
+        <script src="https://t1.chei.com.cn/common/vue-plugins/iview4.4.0/js/iview.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/js/lodash.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/antv/g2/g2-4.1.17.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/vue-plugins/viewer/js/viewer.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/vue-plugins/viewer/js/v-viewer.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/js/api-1.0.4.js"></script>
+        <script src="https://t4.chei.com.cn/xz/assets/web/js/app-3.0.1.js"></script>
+        <script src="https://t1.chei.com.cn/common/js/vue-plugins/vue-lazyload.js"></script>
+        <script src="https://t1.chei.com.cn/xz/assets/common/js/fp.umd.min.js"></script>
+        <script src="https://t1.chei.com.cn/common/ch/browser/not-ie.min.js"></script>
+        
+    <script type="text/x-template" id="rate-custom">
+    <div :class="classes" @mouseleave="handleMouseleave">
+        <input type="hidden" :name="name" :value="currentValue">
+        <div v-for="item in count"  :class="starCls(item)"
+        @mousemove="handleMousemove(item, $event)"
+        :key="item"
+        @click="click(item)">
+        <template v-if="!showCharacter">
+            <span :class="[prefixCls + '-star-content']" type="half"></span>
+        </template>
+        <template v-else>
+            <span :class="[prefixCls + '-star-first']" type="half">
+                <template v-if="character !== ''"> 
+                   不支持character
+                </template>
+                <i v-else :class="iconClasses" type="half"></i>
+            </span>
+            <span :class="[prefixCls + '-star-second']">
+                <template v-if="character !== ''">  不支持character </template>
+                <i v-else :class="iconClasses"></i>
+            </span>
+        </template>
+        </div>
+      
+    </div>
+</script>
+
+    <script>
+
+        // 注册到全局组件
+        Vue.component('chsi-rate', {
+            template: "#rate-custom",
+            props: {
+                count: {
+                    type: Number,
+                    default: 5
+                },
+                value: {
+                    type: Number,
+                    default: 0
+                },
+                allowHalf: {
+                    type: Boolean,
+                    default: false
+                },
+                disabled: {
+                    type: Boolean,
+                    default: false
+                },
+                showText: {
+                    type: Boolean,
+                    default: false
+                },
+                name: {
+                    type: String
+                },
+                clearable: {
+                    type: Boolean,
+                    default: false
+                },
+                character: {
+                    type: String,
+                    default: ''
+                },
+                icon: {
+                    type: String,
+                    default: ''
+                },
+                customIcon: {
+                    type: String,
+                    default: ''
+                },
+                beforeChange: {
+                    type:Function
+                }
+            },
+            data: function () {
+                return {
+                    prefixCls: 'ivu-rate',
+                    hoverIndex: -1,
+                    isHover: false,
+                    isHalf: this.allowHalf && this.value.toString().indexOf('.') >= 0,
+                    currentValue: this.value
+                };
+            },
+            watch: {
+                value: function (val) {
+                    this.currentValue = val;
+                },
+                currentValue: function (val) {
+                    this.setHalf(val);
+                }
+            },
+            computed: {
+                classes: function () {
+                    return [
+                        'ivu-rate',
+                        {
+                            'ivu-rate-disabled': this.disabled
+                        }
+                    ];
+                },
+                iconClasses: function () {
+                    // console.log(['ivu-icon-'+this.icon])
+                    var cssObject = {'ivu-icon':true};
+                    cssObject['ivu-icon-' + this.icon] = this.icon !== '';
+                    cssObject['' + this.customIcon] = this.customIcon !== '';
+                   
+                    return cssObject;
+                },
+                showCharacter: function () {
+                    return this.character !== '' || this.icon !== '' || this.customIcon !== '';
+                }
+            },
+            methods: {
+                starCls: function (value) {
+                    var hoverIndex = this.hoverIndex;
+                    var currentIndex = this.isHover ? hoverIndex : this.currentValue;
+                    var full = false;
+                    var isLast = false;
+                    if (currentIndex >= value) full = true;
+                    if (this.isHover) {
+                        isLast = currentIndex === value;
+                    } else {
+                        isLast = Math.ceil(this.currentValue) === value;
+                    }
+                    return [
+                        {
+                            'ivu-rate-star': !this.showCharacter,
+                            'ivu-rate-star-chart': this.showCharacter,
+                            'ivu-rate-star-full': (!isLast && full) || (isLast && !this.isHalf),
+                            'ivu-rate-star-half': isLast && this.isHalf,
+                            'ivu-rate-star-zero': !full
+                        }
+                    ];
+                },
+
+                handleMouseleave: function () {
+                    if (this.itemDisabled) return;
+                    this.isHover = false;
+                    this.setHalf(this.currentValue);
+                    this.hoverIndex = -1;
+                },
+                handleMousemove: function (value, event) {
+                    if (this.itemDisabled) return;
+                    this.isHover = true;
+                    if (this.allowHalf) {
+                        const type = event.target.getAttribute('type') || false;
+                        this.isHalf = type === 'half';
+                    } else {
+                        this.isHalf = false;
+                    }
+                    this.hoverIndex = value;
+                },
+                setHalf: function (val) {
+                    this.isHalf = this.allowHalf && val.toString().indexOf('.') >= 0;
+                },
+                click: function (value) {
+                    if (this.itemDisabled) return;
+
+                    if (!this.beforeChange) {
+                        return this.handleClick(value);
+                    }
+                    // 回调
+                    this.beforeChange(value, this.handleClick);
+                },
+                handleClick: function (value) {
+                    if (this.itemDisabled) return;
+                    //value++;
+                    if (this.isHalf) value -= 0.5;
+                    if (this.clearable && Math.abs(value - this.currentValue) < 0.01) {
+                        value = 0;
+                    }
+                    this.currentValue = value;
+                    this.$emit('input', value);
+                    this.$emit('on-change', value);
+                    
+                }
+            }
+        });
+    </script>
+        
+
+
+<template id="jsrw-component">
+    <div>
+        <div class="jsrw-basic" v-if="jsrw.show">浏览该页面{{jsrw.count}}秒解锁{{taskTitle == 'ZYDC_ZYYXKC' ? '其他院校课程' : '专业学习投入情况'}}</div>
+        <div class="jsrw-basic jsrw-success" v-if="jsrw.isSuccess">
+           任务完成
+            <a :href="jsrw.successUrl" class="jsrw-success-link">{{jsrw.successText}}<van-icon name="arrow" v-if="isWap"></van-icon></a>
+        </div>
+    </div>
+</template>
+<script>
+    Vue.component('jsrw-component', {
+        props: {
+            hasTask: {
+                type: Boolean,
+                default: false
+            },
+            taskTitle: {
+                type: String,
+                default: ''
+            },
+            userTaskId: {
+                type: String,
+                default: ''
+            },
+            isWap: {
+                type: Boolean,
+                default: false
+            }
+        },
+        data: function () {
+            return {
+                jsrw: {
+                    show: false,
+                    count: 10,
+                    isSuccess: false,
+                    successUrl: '',
+                    successText: ''
+                }
+            }
+        },
+        methods: {
+            handleJsrw: function() {
+                this.jsrw.show = true;
+                var _this = this;
+                var timer = setInterval(function() {
+                    _this.jsrw.count--;
+                    if (_this.jsrw.count == 0) {
+                        clearInterval(timer);
+                        api.syncAjax('post','/task/taskback.action',{
+                            data: {
+                                "cprmcsrf": '6909b0051b9cc06f0aa0b0102150ee2b',
+                                userTaskId: _this.userTaskId
+                            }
+                        }).then(function(res){
+                            if (res.flag) {
+                                _this.jsrw.show = false;
+                                _this.jsrw.successUrl = res.data.taskBackUrl;
+                                _this.jsrw.successText = res.data.title == 'ZYDC_ZYYXKC' ? '去添加院校' : '去查看专业学习投入情况';
+                                _this.jsrw.isSuccess = true;
+                            }else {
+                                if (_this.isWap) {
+                                    _this.$toast.fail(res.msg);
+                                } else {
+                                    _this.$Message.warning(res.msg);
+                                }
+                            }
+                        })
+                    }
+                }, 1000);
+            }
+        },
+        mounted: function() {
+            this.handleJsrw();
+        },
+        template: '#jsrw-component'
+    })
+</script>
+        
+
+
+<template id="xzzt-detail-modal">
+    <div>
+        <modal v-model="modal" class="xzzt-detail-modal" width="1000" :mask-closable="false" :closable="false" :footer-hide="true">
+            <template slot="header"></template>
+            <template>
+                <div v-if="flag == 'syjsxx'" class="modal-header">
+                    <span class="header-type">{{'Type' + (storyList[curStoryIndex].index+1) + ' ' +storyList[curStoryIndex].type}}</span>{{'“' + storyList[curStoryIndex].label + '”'}}
+                </div>
+                <div class="modal-icon modal-close" @click="close"><i class="ch-icon ch-icon-error"></i></div>
+                <div class="modal-box">
+                    <div class="modal-icon modal-left-arrow" v-if="curStoryIndex &gt; 0" @click="jumpPre"><i class="ch-icon ch-icon-arrow-back"></i></div>
+                    <div class="modal-icon modal-right-arrow" v-if="curStoryIndex &lt; storyList.length - 1" @click="jumpNext"><i class="ch-icon ch-icon-arrow-forward"></i></div>
+                    <div class="modal-share" @click="share=!share">分享我的故事<img src="https://t1.chei.com.cn/xz/assets/web/images/xzzt-detail-share.png" alt=""></div>
+                    <div class="modal-share-box" v-if="share">
+                        <div class="share-title">征稿 | 成长进行时，有哪些人生经验值得分享？</div>
+                        <div class="share-content">
+                            <p>每个人在成长过程中，很多时候都是先从别人的故事/经验中得到启发。再在自己的人生实践中，逐步积累自己的故事/经验。</p>
+                            <p>在此，学职平台特别邀请各位小伙伴，一起回顾过去，写下一段我们和自己相处的成长过程，把它作为人生阶段的小总结，也把它当作光，照亮行走在这条旅途上的学弟学妹们。</p>
+                        </div>
+                        <div class="share-footer">
+                            学职平台期待你的分享~<a class="share-btn" href="https://xz.chsi.com.cn/xz/zyts/202601/20260116/2247736163.html" target="_blank" rel="noopenner noreferrer">查看投稿详情</a>
+                        </div>
+                        <div class="share-expand" @click="share=false">收起<i class="ch-icon ch-icon-arrow-forward"></i></div>
+                    </div>
+                    <template v-if="flag == 'sjfsnj'">
+                        <div class="modal-tag">
+                            <div class="modal-tag-item">{{storyList[curStoryIndex].nj }}</div>
+                            <div class="modal-tag-item">{{storyList[curStoryIndex].type}}</div>
+                        </div>
+                    </template>
+                    <template v-if="flag == 'sjztlx'">
+                        <div class="modal-tag">
+                            <div class="modal-tag-item">{{storyList[curStoryIndex].type}}</div>
+                            <div class="modal-tag-item">{{storyList[curStoryIndex].nj}}</div>
+                            <div class="modal-tag-item" v-if="storyList[curStoryIndex].label">{{storyList[curStoryIndex].label}}</div>
+                        </div>
+                    </template>
+                    <div class="modal-title">{{storyList[curStoryIndex].title}}</div>
+                    <div class="modal-content" v-html="storyList[curStoryIndex].content"></div>
+                    <div class="modal-btn-box">
+                        <template v-for="item in evaluateList">
+                            <div class="btn-part">
+                                <div :class="{'btn-item': !storyList[curStoryIndex].evaluate, 'btn-item-other': storyList[curStoryIndex].evaluate,
+                                    'btn-item-active': storyList[curStoryIndex].evaluate == item.key}" @click="handleEvaluate(item.key)">
+                                    <div :class="['emoji-normal', item.class]"></div>{{item.value}}
+                                    <span v-if="storyList[curStoryIndex].evaluate == item.key &amp;&amp; item.key != 'YBB'" style="font-weight: 400;">（{{storyList[curStoryIndex].cnt}}人）</span>
+                                </div>
+                                <div class="modal-tip-box" v-if="storyList[curStoryIndex].evaluate == item.key &amp;&amp; tipModal">
+                                    <div class="tip-close" @click="closeTip"><i class="ch-icon ch-icon-error"></i></div>
+                                    <div class="tip-title">操作成功</div>
+                                    <div class="tip-middle" v-if="storyList[curStoryIndex].cnt &gt; 1">你与<span class="num">{{storyList[curStoryIndex].cnt - 1}}</span>人{{item.text3}}</div>
+                                    <div class="text-box">
+                                        <div class="text1">{{evaluateText1}}</div>
+                                        <div class="text2">{{evaluateText2}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+
+                <div class="modal-jump-box">
+                    <div class="jump-item" :class="{'jump-item-single': curStoryIndex &gt;= storyList.length - 1}" v-if="curStoryIndex &gt; 0" @click="jumpPre">
+                        <i class="ch-icon ch-icon-arrow-back"></i>上一篇
+                        <span class="text">{{storyList[curStoryIndex-1].title}}</span>
+                    </div>
+                    <div class="jump-item jump-item-right" :class="{'jump-item-single': curStoryIndex &lt;= 0}" v-if="curStoryIndex &lt; storyList.length - 1" @click="jumpNext">
+                        <span class="text">{{storyList[curStoryIndex+1].title}}</span>
+                        下一篇<i class="ch-icon ch-icon-arrow-forward"></i>
+                    </div>
+                </div>
+            </template>
+        </modal>
+    </div>
+
+</template>
+<script>
+    Vue.component('xzzt-detail-modal', {
+        props: {
+            flag: {
+                type: String,
+                default: ''
+            },
+            storyList: {
+                type: Array,
+                default: []
+            },
+            id: {
+                type: String,
+                default: ''
+            },
+            visitorId: {
+                type: String,
+                default: ''
+            }
+        },
+        data: function () {
+            return {
+                curStoryIndex: -1,
+                evaluateList: [
+                    { key: 'YQF', value: '有启发', class: 'emoji-yqf', text3: '在故事上达成了共识' },
+                    { key: 'YTG', value: '有同感', class: 'emoji-ytg', text3: '拥有了情感上的共鸣' },
+                    { key: 'YBB', value: '一般般', class: 'emoji-ybb', text3: '' }
+                ],
+                evaluateText1: '',
+                evaluateText2: '',
+                share: false,
+                tipModal: false,
+                modal: true,
+                timer: null
+            }
+        },
+        methods: {
+            close: function() {
+                this.$emit('close-detail');
+            },
+            jumpStory: function(id) {
+                this.curStoryIndex = _.findIndex(this.storyList, function(o) {return o.id == id});
+                this.sendStatistics(id);
+            },
+            jumpPre: function() {
+                this.curStoryIndex--;
+                this.sendStatistics(this.storyList[this.curStoryIndex].id);
+                this.share = false;
+            },
+            jumpNext: function() {
+                this.curStoryIndex++;
+                this.sendStatistics(this.storyList[this.curStoryIndex].id);
+                this.share = false;
+            },
+            handleEvaluate: function(key) {
+                if (this.storyList[this.curStoryIndex].evaluate) {
+                    return false;
+                }
+                var _this = this;
+                api.syncAjax("post", "/zt/sygs/evaluate.action", {
+                    data: {
+                        visitorId: _this.visitorId,
+                        resId: _this.storyList[_this.curStoryIndex].id,
+                        evaType: key
+                    }
+                }).then(function (res) {
+                    if (res.flag) {
+                        _this.storyList[_this.curStoryIndex].evaluate = res.data.evaluate;
+                        _this.storyList[_this.curStoryIndex].cnt = res.data.cnt;
+                        _this.evaluateText1 = res.data.text1;
+                        _this.evaluateText2 = res.data.text2;
+                        _this.tipModal = true;
+                        _this.timer = setTimeout(function() {
+                            _this.tipModal = false;
+                        }, 5000);
+                    } else {
+                        _this.$Message.warning(res.msg);
+                    }
+                });
+                var value = _.find(_this.evaluateList, function(o) {return o.key == key}).value;
+                gaTrackerOutboundLink({
+                    eventCategory: '故事评价点击量',
+                    eventAction: 'click',
+                    eventLabel: _this.storyList[_this.curStoryIndex].title + '-' + value
+                })
+            },
+            closeTip: function() {
+                clearTimeout(this.timer);
+                this.tipModal = false;
+            },
+            sendStatistics: function(id){
+                var postData = {
+                    resId: id,
+                    type:'5'
+                }
+                api.syncAjax('post','/ajax/statistics.action',{data: postData});
+            }
+        },
+        created: function() {
+            this.jumpStory(this.id);
+        },
+        template: '#xzzt-detail-modal'
+    })
+</script>
+        
+
+
+
+
+
+<template id="xzzt-wj-modal">
+    <div>
+        <modal v-model="modal" class="xzzt-wj-modal" title="学职平台生涯调查" width="868" :mask-closable="false" @on-cancel="cancel">
+            <div class="xz-survey-content">
+                <template v-if="finished">
+                    <div class="xz-survey-result-new">
+                        <div class="xz-survey-result_text">问卷已提交，感谢您的参与</div>
+                    </div>
+                </template>
+                <template v-else="">
+                    <p>为帮助大学生更好地进行职业规划，学职平台特别邀请您参加本次的小调查，调查结果仅用于大学生就业指导服务。本问卷的填写采取不记名的方式，不会涉及您的个人隐私。请您放心填写、认真作答。</p>
+                    <template v-for="(item, index) in questionVoList">
+                        <div class="survey-item" :id="item.id" :key="item.id" :class="{'error-border':errors.has(item.id)}">
+                            <div class="xz-survey-question"><span class="require" style="color: #c30;">* </span>{{index+1}}、{{item.content}}</div>
+                            <div class="xz-survey-option" v-if="item.type=='0'">
+                                <template v-if="item.hasMultAnswer">
+                                    <checkbox-group v-model="item.value" v-validate="'required'" :name="item.id">
+                                        <template v-for="item2 in item.optionVoList">
+                                            <div class="option-item">
+                                                <checkbox :label="item2.key" :key="item2.key">
+                                                    <span>{{item2.alias}}、{{item2.content}}</span>
+                                                </checkbox>
+                                            </div>
+                                            <template v-if="item.value &amp;&amp; item.value.indexOf(item2.key)!==-1 &amp;&amp; item2.type == 1">
+                                                <i-input v-validate="'required'" :name="item.id" maxlength="250" v-model.trim="item.inputValue"></i-input>
+                                            </template>
+                                        </template>
+                                    </checkbox-group>
+                                </template>
+                                <template v-else="">
+                                    <radio-group v-validate="'required'" :name="item.id" v-model="item.value" style="width: 100%;" @on-change="handleChange(index)">
+                                        <template v-for="item2 in item.optionVoList">
+                                            <div class="option-item">
+                                                <radio :label="item2.key" :key="item2.key">
+                                                    <span>{{item2.alias}}、{{item2.content}}</span>
+                                                </radio>
+                                            </div>
+                                            <template v-if="item.value == item2.key &amp;&amp; item2.type == 1">
+                                                <i-input v-validate="'required'" :name="item.id" maxlength="250" v-model.trim="item.inputValue" :placeholder="getPlaceholder(item.key, item2.key)"></i-input>
+                                            </template>
+                                        </template>
+                                    </radio-group>
+                                </template>
+                            </div>
+                            <div class="xz-survey-option" v-if="item.type==1">
+                                <i-input v-validate="'required'" :name="item.id" v-model.trim="item.value" maxlength="250" type="textarea" :rows="4" placeholder="如swot分析等"></i-input>
+                            </div>
+                            <div class="error-tip" v-if="errors.has(item.id)">{{errors.first(item.id)}}</div>
+                        </div>
+                    </template>
+                </template>
+            </div>
+            <div slot="footer">
+                <template v-if="!finished">
+                    <i-button @click="cancel" size="large">取消</i-button>
+                    <i-button @click="submitSurvey" type="primary" size="large">提交</i-button>
+                </template>
+                <i-button v-else="" @click="close" size="large">关闭</i-button>
+            </div>
+        </modal>
+    </div>
+
+</template>
+<script src="https://t1.chei.com.cn/common/js/vue-plugins/vee-validate.min.js"></script>
+<script src="https://t1.chei.com.cn/common/js/vue-plugins/zh_CN.js"></script>
+<script>
+    //校验配置
+    VeeValidate.Validator.localize('zh_CN');
+    VeeValidate.Validator.localize({
+        zh_CN: {
+            messages: {
+                required: function (field) {
+                    return "该题为必填项，请填写完整后再提交。";
+                }
+            }
+        }
+    });
+    Vue.use(VeeValidate);
+    Vue.component('xzzt-wj-modal', {
+        props: {
+            finished: {
+                type: Boolean,
+                default: false
+            },
+            questionVoList: {
+                type: Array,
+                default: []
+            },
+            randomStr: {
+                type: String,
+                default: ''
+            },
+            visitorId: {
+                type: String,
+                default: ''
+            }
+        },
+        data: function () {
+            return {
+                modal: true
+            }
+        },
+        methods: {
+            close: function() {
+                this.$emit('close-wj');
+            },
+            cancel: function() {
+                this.$emit('close-wj');
+                if (!this.finished) {
+                    var index = -1;
+                    for(var i = 0; i < this.questionVoList.length; i++) {
+                        var ele = this.questionVoList[i];
+                        if (!ele.value) {
+                            index = i;
+                            break;
+                        }
+                    }
+
+                    gaTrackerOutboundLink({
+                        eventCategory: '用户最后填写的调查题目序号',
+                        eventAction: 'click',
+                        eventLabel: index == -1 ? this.questionVoList.length : index
+                    })
+                }
+            },
+            handleChange: function(index) {
+                this.$set(this.questionVoList[index], 'inputValue', '');
+            },
+            getPlaceholder: function(key1, key2) {
+                if (key1 == 'xzptsydc2023_4') {
+                    var res = '';
+                    switch(key2) {
+                        case 'xzptsydc2023_4_2':
+                            res = '您不确定的主要原因是？';
+                            break;
+                        case 'xzptsydc2023_4_3':
+                            res = '您比较不愿意的主要原因是？';
+                            break;
+                        case 'xzptsydc2023_4_4':
+                            res = '您不愿意的主要原因是？';
+                            break;
+                        default:
+                            res = '';
+                            break;
+                    }
+                    return res;
+                } else {
+                    return '';
+                }
+            },
+            scrollToFirstError() {
+                this.$nextTick(function () {
+                    var element = window.document.querySelectorAll("*[class~=error-border]")[0];
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                })
+            },
+            submitSurvey: function() {
+                this.$validator.validateAll().then((result) => {
+                    if (!result) {
+                        this.scrollToFirstError();
+                    }
+                });
+                var result = {};
+                for(var i = 0; i < this.questionVoList.length; i++) {
+                    var ele = this.questionVoList[i];
+                    if (!ele.value) {
+                        this.$Message.info('请完成所有带*的必填题目');
+                        return;
+                    } else {
+                        if (ele.hasMultAnswer) {
+                            this.$set(result, ele.key, ele.value.join(','));
+                            if (ele.value.indexOf('xzptsydc2023_5_4') !== -1) {
+                                if (ele.inputValue) {
+                                    this.$set(result, 'sywtInput', ele.inputValue);
+                                } else {
+                                    this.$Message.info('请完成所有带*的必填题目');
+                                    return;
+                                }
+                            }
+                        } else {
+                            this.$set(result, ele.key, ele.value);
+                            if (ele.value == 'xzptsydc2023_0_9') {
+                                if (ele.inputValue) {
+                                    this.$set(result, 'njInput', ele.inputValue);
+                                } else {
+                                    this.$Message.info('请完成所有带*的必填题目');
+                                    return;
+                                }
+                            }
+                            if (ele.value ==  'xzptsydc2023_2_2') {
+                                if (ele.inputValue) {
+                                    this.$set(result, 'jlgjInput', ele.inputValue);
+                                } else {
+                                    this.$Message.info('请完成所有带*的必填题目');
+                                    return;
+                                }
+                            }
+                            if (ele.value ==  'xzptsydc2023_4_2' || ele.value ==  'xzptsydc2023_4_3' || ele.value ==  'xzptsydc2023_4_4') {
+                                if (ele.inputValue) {
+                                    this.$set(result, 'yyInput', ele.inputValue);
+                                } else {
+                                    this.$Message.info('请完成所有带*的必填题目');
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                }
+                this.$set(result,'startTime','2026-04-14 07:25:19');
+                this.$set(result,'randomStr',this.randomStr);
+                this.$set(result,'visitorId',this.visitorId);
+                this.ajax(result);
+            },
+            ajax: function(data) {
+                var _this = this;
+                api.syncAjax('post', '/cp/survey/sydc/save.action',{data: data}).then(function(res){
+                    if (res.status === 0) {
+                       _this.$Message.success('提交成功');
+                       _this.close();
+                       _this.$emit('handle-finished');
+                    } else {
+                        _this.$Message.warning(res.message);
+                    }
+                });
+
+                gaTrackerOutboundLink({
+                    eventCategory: '调查完成提交量',
+                    eventAction: 'click',
+                    eventLabel: ''
+                })
+            },
+        },
+        template: '#xzzt-wj-modal'
+    })
+</script>
+        <script>
+            Vue.use(VueLazyload, {
+                attempt: 1
+            });
+            api.pollingOptions = {
+                resType: 'json',
+                taskUrl: '', //默认：''，不会进入轮询
+                pollingUrl: '', //默认：''，不会进入轮询
+                pollingLimit: 10, // 请求的最大次数，默认：10次
+                pollingDelay: 1000, // 正常轮询时，请求延迟毫秒数，默认：1000毫秒
+                delayGaps: 300, // 轮询请求间隔递增毫秒数，默认：0毫秒（建议不要超过1000）
+            };
+            // api 统一配置
+            api.axiosConfig = {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+                }, // 其他为axios的配置-设置headers
+                timeout: 60000 // 其他为axios的配置-请求超时时间
+            };
+            api.errorCallback = function (code, msg) {
+                // 当其他错误发生时，弹出提示层
+                setTimeout(function () {
+                    iview.Modal.error({
+                        title: '提示',
+                        content: msg
+                    });
+                }, 500);
+            };
+            Vue.use(VueViewer.default);
+            new Vue({
+                el: '#app',
+                mixins: typeof mixin != 'undefined' ? [mixin] : {},
+                data: {
+                    isWap: wapFn(),
+                    showEwm: false,
+                    showTopNav: false,
+                    cdn: 'https://t2.chei.com.cn/xzpt/survey/cdn/showimg/' || 'https://t1.chei.com.cn/xzpt/survey/cdn/showimg/',
+                    ext: '.jpeg',
+                    finishedYhdy: false,
+                    visitorId: '',
+                    dcwjModal: false
+                },
+                methods: {
+                    // 返回顶部
+                    backToTop: function () {
+                        var curScrollTop = document.documentElement.scrollTop;
+                        var timer = setInterval(function () {
+                            if (curScrollTop > 0) {
+                                window.scrollTo(0, curScrollTop);
+                                curScrollTop -= 15;
+                            } else {
+                                window.scrollTo(0, 0);
+                                clearInterval(timer);
+                            }
+                        }, 2);
+                    },
+                    goWap: function() {
+                        api.syncAjax('get','/ajax/changeaccessmodel.action',{
+                            params: {
+                                accessModel: 'wap'
+                            }
+                        }).then(function(res){
+                            if (res.flag) {
+                                window.location.reload();
+                            }
+                        })
+                    },
+                    getDcwjStatus: function() {
+                        var _this = this;
+                        api.syncAjax('get','/ajax/getuserstatus.action').then(function(res){
+                            if (res.flag) {
+                                _this.finishedYhdy = res.data.finishedYhdy;
+                            }
+                        })
+                    },
+                    getZtData: function(type) {
+                        var url = 'https://t2.chei.com.cn/xz/assets/web/images/';
+                        var obj = {
+                            'SJFSNJ': {
+                                link: 'https://xz.chsi.com.cn/zt/sygs/sjfsnj.action',
+                                zydc: url + 'xzzt-zydc-nj.png',
+                            },
+                            'SJZTLX': {
+                                link: 'https://xz.chsi.com.cn/zt/sygs/sjztlx.action',
+                                zydc: url + 'xzzt-zydc-lx.png'
+                            },
+                            'SYJSXX': {
+                                link: 'https://xz.chsi.com.cn/zt/sygs/syjsxx.action',
+                                zydc: url + 'xzzt-zydc-js.png'
+                            }
+                        };
+                        return obj[type] || {};
+                    }
+                },
+                created: function() {
+                    this.$Spin.show();
+                    this.$Message.config({
+                        top: 300,
+                        duration: 6
+                    });
+                    this.getDcwjStatus();
+                },
+                mounted: function() {
+                    this.$Spin.hide();
+                    var animation = lottie.loadAnimation({
+                        container: this.$refs['dcwj'],
+                        renderer: 'svg',
+                        loop: true,
+                        autoplay: true,
+                        assetsPath: '/assets/wap/images/dcwj/',
+                        path: 'https://t3.chei.com.cn/xz/assets/wap/lib/dcwj.json'
+                    })
+
+                    var _this = this;
+                    var flag = true;
+                    var cookieArr = document.cookie.split(';');
+                    if (cookieArr && cookieArr.length > 0) {
+                        if (_.find(cookieArr, function(o) {return o.split('=')[0].trim() == 'dcwj';})) {
+                            flag = false;
+                        }
+                    } else {
+                        flag = true;
+                    }
+                    if (flag) {
+                        setTimeout(function() {
+                            _this.dcwjModal = true;
+                            var date = new Date();
+                            date.setTime(date.getTime() + 10 * 60 * 1000);
+                            document.cookie = 'dcwj=true;expires='+date.toUTCString()+';path=/';
+                        }, 3 * 60 * 1000);
+                    }
+
+                    // 获取浏览器指纹
+                    var _this = this;
+                    FingerprintJS.load().then(fp => fp.get())
+                        .then(result => {
+                            _this.visitorId = result.visitorId;
+                        })
+                }
+            })
+        </script><div data-transfer="true" class="dcwj-modal v-transfer-dom"><div class="ivu-modal-mask" style="z-index: 39999; display: none;"></div> <div class="ivu-modal-wrap ivu-modal-hidden" style="z-index: 39999;"><div class="ivu-modal" style="width: 520px; display: none;"><div class="ivu-modal-content"><!----> <!----> <div class="ivu-modal-body"><div class="dcwj-box"><a href="/cp/survey/yhdy/show.action?visitorId=07671e2e1c8a1d9a12a58ee61b03cd8d"><img src="https://t1.chei.com.cn/xz/assets/web/images/dcwj-img.png" alt=""></a> <div class="close-btn"><i class="ch-icon ch-icon-error"></i></div></div></div> <!----></div></div></div></div>
+    
+
+</body></html>
