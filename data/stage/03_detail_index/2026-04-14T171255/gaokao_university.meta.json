@@ -1,0 +1,9 @@
+{
+  "task": "gaokao_university",
+  "source": "gaokao",
+  "entity_type": "university",
+  "input_path": "data/stage/01_list_index/2026-04-14T031115/gaokao_major.jsonl",
+  "count": 1168,
+  "failed_count": 0,
+  "failed": []
+}
