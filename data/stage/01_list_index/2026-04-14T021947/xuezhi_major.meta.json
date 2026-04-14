@@ -1,0 +1,488 @@
+{
+  "task": "xuezhi_major",
+  "source": "xuezhi",
+  "entity_type": "major",
+  "count": 1421,
+  "list_url": "https://xz.chsi.com.cn/speciality/index.action",
+  "pages": [
+    {
+      "name": "0001_major.html",
+      "url": "https://xz.chsi.com.cn/speciality/index.action"
+    },
+    {
+      "page_no": 1,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=0&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133191079",
+      "count": 15
+    },
+    {
+      "page_no": 2,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=15&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133197154",
+      "count": 15
+    },
+    {
+      "page_no": 3,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=30&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133197451",
+      "count": 15
+    },
+    {
+      "page_no": 4,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=45&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133198019",
+      "count": 15
+    },
+    {
+      "page_no": 5,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=60&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133198319",
+      "count": 15
+    },
+    {
+      "page_no": 6,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=75&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133198624",
+      "count": 15
+    },
+    {
+      "page_no": 7,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=90&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133199204",
+      "count": 15
+    },
+    {
+      "page_no": 8,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=105&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133199502",
+      "count": 15
+    },
+    {
+      "page_no": 9,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=120&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133199799",
+      "count": 15
+    },
+    {
+      "page_no": 10,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=135&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133200095",
+      "count": 15
+    },
+    {
+      "page_no": 11,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=150&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133200674",
+      "count": 15
+    },
+    {
+      "page_no": 12,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=165&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133200968",
+      "count": 15
+    },
+    {
+      "page_no": 13,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=180&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133201275",
+      "count": 15
+    },
+    {
+      "page_no": 14,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=195&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133201570",
+      "count": 15
+    },
+    {
+      "page_no": 15,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=210&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133202161",
+      "count": 15
+    },
+    {
+      "page_no": 16,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=225&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133202461",
+      "count": 15
+    },
+    {
+      "page_no": 17,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=240&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133202762",
+      "count": 15
+    },
+    {
+      "page_no": 18,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=255&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133203356",
+      "count": 15
+    },
+    {
+      "page_no": 19,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=270&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133203654",
+      "count": 15
+    },
+    {
+      "page_no": 20,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=285&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133204226",
+      "count": 15
+    },
+    {
+      "page_no": 21,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=300&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133204546",
+      "count": 15
+    },
+    {
+      "page_no": 22,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=315&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133205124",
+      "count": 15
+    },
+    {
+      "page_no": 23,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=330&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133205419",
+      "count": 15
+    },
+    {
+      "page_no": 24,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=345&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133205994",
+      "count": 15
+    },
+    {
+      "page_no": 25,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=360&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133206298",
+      "count": 15
+    },
+    {
+      "page_no": 26,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=375&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133206608",
+      "count": 15
+    },
+    {
+      "page_no": 27,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=390&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133206924",
+      "count": 15
+    },
+    {
+      "page_no": 28,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=405&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133207221",
+      "count": 15
+    },
+    {
+      "page_no": 29,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=420&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133207515",
+      "count": 15
+    },
+    {
+      "page_no": 30,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=435&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133207812",
+      "count": 15
+    },
+    {
+      "page_no": 31,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=450&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133208117",
+      "count": 15
+    },
+    {
+      "page_no": 32,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=465&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133208422",
+      "count": 15
+    },
+    {
+      "page_no": 33,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=480&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133208715",
+      "count": 15
+    },
+    {
+      "page_no": 34,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=495&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133209021",
+      "count": 15
+    },
+    {
+      "page_no": 35,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=510&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133209320",
+      "count": 15
+    },
+    {
+      "page_no": 36,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=525&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133209736",
+      "count": 15
+    },
+    {
+      "page_no": 37,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=540&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133210331",
+      "count": 15
+    },
+    {
+      "page_no": 38,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=555&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133210637",
+      "count": 15
+    },
+    {
+      "page_no": 39,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=570&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133211206",
+      "count": 15
+    },
+    {
+      "page_no": 40,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=585&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133211500",
+      "count": 15
+    },
+    {
+      "page_no": 41,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=600&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133211798",
+      "count": 15
+    },
+    {
+      "page_no": 42,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=615&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133212373",
+      "count": 15
+    },
+    {
+      "page_no": 43,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=630&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133212674",
+      "count": 15
+    },
+    {
+      "page_no": 44,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=645&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133213266",
+      "count": 15
+    },
+    {
+      "page_no": 45,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=660&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133213568",
+      "count": 15
+    },
+    {
+      "page_no": 46,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=675&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133214147",
+      "count": 15
+    },
+    {
+      "page_no": 47,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=690&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133214452",
+      "count": 15
+    },
+    {
+      "page_no": 48,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=705&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133215034",
+      "count": 15
+    },
+    {
+      "page_no": 49,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=720&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133215328",
+      "count": 15
+    },
+    {
+      "page_no": 50,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=735&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133215624",
+      "count": 15
+    },
+    {
+      "page_no": 51,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=750&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133216205",
+      "count": 15
+    },
+    {
+      "page_no": 52,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=765&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133216501",
+      "count": 15
+    },
+    {
+      "page_no": 53,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=780&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133216794",
+      "count": 15
+    },
+    {
+      "page_no": 54,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=795&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133217098",
+      "count": 15
+    },
+    {
+      "page_no": 55,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=810&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133217393",
+      "count": 15
+    },
+    {
+      "page_no": 56,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=825&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133217986",
+      "count": 15
+    },
+    {
+      "page_no": 57,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=840&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133218290",
+      "count": 15
+    },
+    {
+      "page_no": 58,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=855&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133218584",
+      "count": 15
+    },
+    {
+      "page_no": 59,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=870&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133218880",
+      "count": 15
+    },
+    {
+      "page_no": 60,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=885&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133219188",
+      "count": 15
+    },
+    {
+      "page_no": 61,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=900&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133219488",
+      "count": 15
+    },
+    {
+      "page_no": 62,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=915&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133219785",
+      "count": 15
+    },
+    {
+      "page_no": 63,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=930&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133220079",
+      "count": 15
+    },
+    {
+      "page_no": 64,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=945&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133220378",
+      "count": 15
+    },
+    {
+      "page_no": 65,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=960&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133220672",
+      "count": 15
+    },
+    {
+      "page_no": 66,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=975&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133220969",
+      "count": 15
+    },
+    {
+      "page_no": 67,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=990&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133221267",
+      "count": 15
+    },
+    {
+      "page_no": 68,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1005&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133221563",
+      "count": 15
+    },
+    {
+      "page_no": 69,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1020&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133222135",
+      "count": 15
+    },
+    {
+      "page_no": 70,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1035&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133222429",
+      "count": 15
+    },
+    {
+      "page_no": 71,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1050&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133222997",
+      "count": 15
+    },
+    {
+      "page_no": 72,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1065&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133223299",
+      "count": 15
+    },
+    {
+      "page_no": 73,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1080&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133223881",
+      "count": 15
+    },
+    {
+      "page_no": 74,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1095&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133224176",
+      "count": 15
+    },
+    {
+      "page_no": 75,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1110&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133224747",
+      "count": 15
+    },
+    {
+      "page_no": 76,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1125&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133225042",
+      "count": 15
+    },
+    {
+      "page_no": 77,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1140&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133225335",
+      "count": 15
+    },
+    {
+      "page_no": 78,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1155&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133225639",
+      "count": 15
+    },
+    {
+      "page_no": 79,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1170&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133225945",
+      "count": 15
+    },
+    {
+      "page_no": 80,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1185&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133226240",
+      "count": 15
+    },
+    {
+      "page_no": 81,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1200&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133226553",
+      "count": 15
+    },
+    {
+      "page_no": 82,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1215&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133226850",
+      "count": 15
+    },
+    {
+      "page_no": 83,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1230&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133227145",
+      "count": 15
+    },
+    {
+      "page_no": 84,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1245&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133227727",
+      "count": 15
+    },
+    {
+      "page_no": 85,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1260&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133228031",
+      "count": 15
+    },
+    {
+      "page_no": 86,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1275&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133228603",
+      "count": 15
+    },
+    {
+      "page_no": 87,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1290&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133228907",
+      "count": 15
+    },
+    {
+      "page_no": 88,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1305&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133229214",
+      "count": 15
+    },
+    {
+      "page_no": 89,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1320&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133229795",
+      "count": 15
+    },
+    {
+      "page_no": 90,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1335&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133230100",
+      "count": 15
+    },
+    {
+      "page_no": 91,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1350&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133230396",
+      "count": 15
+    },
+    {
+      "page_no": 92,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1365&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133230697",
+      "count": 15
+    },
+    {
+      "page_no": 93,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1380&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133231272",
+      "count": 15
+    },
+    {
+      "page_no": 94,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1395&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133231575",
+      "count": 15
+    },
+    {
+      "page_no": 95,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=1410&phbType=1&cc=&ml=&xk=&zymc=&_t=1776133232153",
+      "count": 11
+    }
+  ]
+}
