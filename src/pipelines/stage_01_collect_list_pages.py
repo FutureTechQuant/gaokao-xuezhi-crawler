@@ -71,6 +71,7 @@ def run(target='all', run_id=None, headless=None):
                 meta_path = stage_dir / f'{task_name}.meta.json'
 
                 write_jsonl(index_path, result['items'])
+                logger.info('wrote %d items to %s', len(result['items']), index_path)
                 write_json(meta_path, {
                     'task': task_name,
                     'source': source,

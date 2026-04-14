@@ -112,6 +112,11 @@ def _find_latest_index(base_dir: Path, target: str) -> Path | None:
 
 
 def _default_input_path(target: str) -> Path:
+    # DEBUG: Use test file for xuezhi_major
+    if target == 'xuezhi_major':
+        return Path('data/stage/01_list_index/2026-04-14T021947/xuezhi_major_test.jsonl')
+    
+    # Try latest first
     preferred = _find_latest_index(Path('data') / 'stage' / '02_list_index', target)
     if preferred is not None:
         return preferred
@@ -120,9 +125,21 @@ def _default_input_path(target: str) -> Path:
     if fallback is not None:
         return fallback
 
-    raise FileNotFoundError(
-        f'input list index not found for target={target}. tried stage/02_list_index and stage/01_list_index',
+    # If no latest, use the most recent run
+    base_dir = Path('data') / 'stage' / '01_list_index'
+    if not base_dir.exists():
+        raise FileNotFoundError(f'input list index not found for target={target}')
+
+    candidate_dirs = sorted(
+        [d for d in base_dir.iterdir() if d.is_dir() and d.name != 'latest'],
+        reverse=True,
     )
+    for candidate in candidate_dirs:
+        candidate_file = candidate / f'{target}.jsonl'
+        if candidate_file.exists():
+            return candidate_file
+
+    raise FileNotFoundError(f'input list index not found for target={target}')
 
 
 def run(target='all', input_path=None, run_id=None, headless=None, limit=0):

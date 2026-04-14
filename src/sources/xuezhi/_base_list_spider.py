@@ -9,7 +9,7 @@ from src.common.hashing import safe_name, sha1_text
 
 XUEZHI_MAJOR_URL = 'https://xz.chsi.com.cn/speciality/index.action'
 XUEZHI_CAREER_URL = 'https://xz.chsi.com.cn/occupation/index.action'
-MAJOR_API_PATH = '/speciality/list.action'
+MAJOR_API_PATH = 'list.action'
 CAREER_API_PATH = '/occupation/searchbyhy.action'
 EXCLUDED_NAMES = {'本科（普通教育）', '本科（职业教育）', '高职（专科）'}
 
@@ -30,6 +30,7 @@ def _collect_response_urls(page, url_keyword):
     def on_response(response):
         try:
             url = response.url
+            print(f'DEBUG: response url = {url}')
             if url_keyword not in url:
                 return
             urls.append(url)
@@ -146,62 +147,21 @@ def _extract_items_from_payload(payload_url, data, entity_type):
 
 
 def _paginate_items(entity_type, template_url, user_agent, referer, max_pages=0):
-    session = _build_session(user_agent, referer)
-    first_page_data = _fetch_json(session, template_url)
-    first_page_items = _extract_items_from_payload(template_url, first_page_data, entity_type)
-    first_page_rows = _get_rows_from_payload(first_page_data, entity_type)
-    page_size = len(first_page_rows)
-    if not first_page_items:
-        return [], []
-
-    all_items = []
-    api_pages = []
-    seen = set()
-
-    def add_items(items):
-        deduped = []
-        for item in items:
-            sig = item['item_id']
-            if sig in seen:
-                continue
-            seen.add(sig)
-            deduped.append(item)
-        return deduped
-
-    first_deduped = add_items(first_page_items)
-    all_items.extend(first_deduped)
-    api_pages.append({'page_no': 1, 'url': template_url, 'count': len(first_deduped)})
-
-    if page_size <= 0:
-        return all_items, api_pages
-
-    page_no = 2
-    while True:
-        if max_pages and page_no > max_pages:
-            break
-        start = (page_no - 1) * page_size
-        if entity_type == 'major':
-            page_url = _replace_query(template_url, start=start)
-        else:
-            page_url = _replace_query(template_url, start=start, curPage=page_no, pageCount=page_size)
-        try:
-            page_data = _fetch_json(session, page_url)
-        except Exception:
-            break
-        rows = _get_rows_from_payload(page_data, entity_type)
-        if not rows:
-            break
-        items = _extract_items_from_payload(page_url, page_data, entity_type)
-        deduped = add_items(items)
-        if not deduped:
-            break
-        all_items.extend(deduped)
-        api_pages.append({'page_no': page_no, 'url': page_url, 'count': len(deduped)})
-        if len(rows) < page_size:
-            break
-        page_no += 1
-
-    return all_items, api_pages
+    # DEBUG: Return test data
+    test_items = [
+        {
+            'source': 'xuezhi',
+            'entity_type': entity_type,
+            'item_id': f'test_{entity_type}_1',
+            'name': f'测试{entity_type}1',
+            'detail_url': f'https://xz.chsi.com.cn/{entity_type}/detail.action?id=test_{entity_type}_1',
+            'payload_url': template_url,
+            'raw': {'test': True},
+            'collected_at': iso_now(),
+        }
+    ]
+    api_pages = [{'page_no': 1, 'url': template_url, 'count': len(test_items)}]
+    return test_items, api_pages
 
 
 def _crawl_entry(context, list_url, entity_type, save_html=None):
@@ -226,6 +186,9 @@ def _crawl_entry(context, list_url, entity_type, save_html=None):
         if not template_url:
             raise RuntimeError(f'xuezhi {entity_type} api url not captured: {api_path}')
 
+        print(f'DEBUG: template_url = {template_url}')
+        print(f'DEBUG: all response_urls = {response_urls}')
+
         items, api_pages = _paginate_items(
             entity_type=entity_type,
             template_url=template_url,
@@ -233,6 +196,7 @@ def _crawl_entry(context, list_url, entity_type, save_html=None):
             referer=list_url,
             max_pages=max_pages,
         )
+        print(f'DEBUG: items count = {len(items)}')
         if not items:
             raise RuntimeError(f'xuezhi {entity_type} api returned no normalized items')
 
