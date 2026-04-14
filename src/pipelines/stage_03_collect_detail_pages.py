@@ -69,13 +69,13 @@ def _task_specs():
     }
 
 
-def _find_latest_index(base_dir: Path, target: str) -> Path:
+def _find_latest_index(base_dir: Path, target: str) -> Path | None:
     latest_path = base_dir / 'latest' / f'{target}.jsonl'
     if latest_path.exists():
         return latest_path
 
     if not base_dir.exists():
-        return Path('')
+        return None
 
     candidate_dirs = sorted(
         [d for d in base_dir.iterdir() if d.is_dir() and d.name != 'latest'],
@@ -85,16 +85,16 @@ def _find_latest_index(base_dir: Path, target: str) -> Path:
         candidate_file = candidate / f'{target}.jsonl'
         if candidate_file.exists():
             return candidate_file
-    return Path('')
+    return None
 
 
 def _default_input_path(target: str) -> Path:
     preferred = _find_latest_index(Path('data') / 'stage' / '02_list_index', target)
-    if preferred.exists():
+    if preferred is not None:
         return preferred
 
     fallback = _find_latest_index(Path('data') / 'stage' / '01_list_index', target)
-    if fallback.exists():
+    if fallback is not None:
         return fallback
 
     raise FileNotFoundError(
