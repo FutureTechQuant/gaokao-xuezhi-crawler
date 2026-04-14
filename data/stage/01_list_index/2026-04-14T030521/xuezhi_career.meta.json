@@ -1,0 +1,18 @@
+{
+  "task": "xuezhi_career",
+  "source": "xuezhi",
+  "entity_type": "career",
+  "count": 1,
+  "list_url": "https://xz.chsi.com.cn/occupation/index.action",
+  "pages": [
+    {
+      "name": "0001_career.html",
+      "url": "https://xz.chsi.com.cn/occupation/index.action"
+    },
+    {
+      "page_no": 1,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=0&curPage=1&pageCount=10&totalCount=0&_t=1776135925398",
+      "count": 1
+    }
+  ]
+}
