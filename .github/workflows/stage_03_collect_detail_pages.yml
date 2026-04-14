@@ -1,0 +1,53 @@
+name: Run Stage 03 Collect Detail Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'detail collection target'
+        required: false
+        default: 'all'
+
+jobs:
+  run-stage-03:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run stage 03
+        env:
+          HEADLESS: '1'
+        run: |
+          python -m src.pipelines.stage_03_collect_detail_pages --target "${{ github.event.inputs.target || 'all' }}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage-03-detail-pages
+          path: |
+            data/raw
+            data/stage/03_detail_index
+            data/runs
+          if-no-files-found: warn
+          retention-days: 7
+          overwrite: true
