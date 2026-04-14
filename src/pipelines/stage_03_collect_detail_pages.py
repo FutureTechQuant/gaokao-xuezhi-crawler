@@ -42,13 +42,36 @@ def _save_html_factory(base_dir: Path):
 
 
 def _read_jsonl(path: Path):
+    if not path.exists():
+        raise FileNotFoundError(f'input path not found: {path}')
+    if not path.is_file():
+        raise IsADirectoryError(f'input path is not a file: {path}')
+
+    text = path.read_text(encoding='utf-8').strip()
+    if not text:
+        return []
+
+    if text.startswith('['):
+        data = json.loads(text)
+        if isinstance(data, list):
+            return data
+        raise ValueError(f'expected JSON array in {path}')
+
+    decoder = json.JSONDecoder()
     rows = []
-    with path.open('r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            rows.append(json.loads(line))
+    i = 0
+    n = len(text)
+
+    while i < n:
+        while i < n and text[i].isspace():
+            i += 1
+        if i >= n:
+            break
+
+        obj, end = decoder.raw_decode(text, i)
+        rows.append(obj)
+        i = end
+
     return rows
 
 
