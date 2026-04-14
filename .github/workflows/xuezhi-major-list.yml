@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - 'src/sources/xuezhi/_base_list_spider.py'
       - 'src/sources/xuezhi/major_list_spider.py'
       - 'src/pipelines/stage_01_collect_list_pages.py'
       - 'src/common/**'
@@ -11,6 +12,7 @@ on:
   pull_request:
     branches: [ main ]
     paths:
+      - 'src/sources/xuezhi/_base_list_spider.py'
       - 'src/sources/xuezhi/major_list_spider.py'
       - 'src/pipelines/stage_01_collect_list_pages.py'
       - 'src/common/**'
@@ -21,23 +23,42 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    permissions:
+      contents: write
+
     env:
       TARGET: xuezhi_major
       MAX_PAGES: "0"
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           playwright install chromium
+
       - name: Run stage 01
         run: python -m src.pipelines.stage_01_collect_list_pages --target ${TARGET}
+
+      - name: Commit generated files
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore(data): update xuezhi major stage01 [skip ci]"
+          git push
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
