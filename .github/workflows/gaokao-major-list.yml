@@ -1,6 +1,7 @@
-name: gaokao-major-list
+name: Run Gaokao Major List
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
@@ -9,59 +10,128 @@ on:
       - 'src/pipelines/stage_01_collect_list_pages.py'
       - 'src/common/**'
       - '.github/workflows/gaokao-major-list.yml'
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'src/sources/gaokao/major_list_spider.py'
-      - 'src/sources/gaokao/list_spider.py'
-      - 'src/pipelines/stage_01_collect_list_pages.py'
-      - 'src/common/**'
-      - '.github/workflows/gaokao-major-list.yml'
-  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  PYTHONUNBUFFERED: "1"
+  HEADLESS: "1"
+  TARGET: "gaokao_major"
 
 jobs:
-  run:
+  run-script:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-    permissions:
-      contents: write
-
-    env:
-      TARGET: gaokao_major
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: "3.13"
+          cache: "pip"
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          playwright install chromium
 
-      - name: Run stage 01
-        run: python -m src.pipelines.stage_01_collect_list_pages --target ${TARGET}
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install --with-deps chromium
 
-      - name: Commit generated files
-        if: github.event_name != 'pull_request'
+      - name: Run automation script
+        id: run-automation
+        continue-on-error: true
+        run: |
+          python -m src.pipelines.stage_01_collect_list_pages --target ${TARGET}
+
+      - name: Check outputs
+        id: check-results
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -d data/stage/01_list_index ] && find data/stage/01_list_index -type f -name 'gaokao_major.jsonl' | grep -q .; then
+            file_count=$(find data/stage/01_list_index data/raw/gaokao/major data/runs -type f | wc -l | tr -d ' ')
+            echo "status=success" >> "$GITHUB_OUTPUT"
+            echo "file_count=$file_count" >> "$GITHUB_OUTPUT"
+            echo "✅ 找到输出文件 $file_count 个"
+          else
+            echo "status=no_file" >> "$GITHUB_OUTPUT"
+            echo "file_count=0" >> "$GITHUB_OUTPUT"
+            echo "⚠️ 未找到 gaokao_major 输出文件"
+          fi
+
+      - name: Show changed files
+        if: steps.check-results.outputs.status == 'success'
+        shell: bash
+        run: |
+          echo "===== git status ====="
+          git status --short || true
+          echo
+          echo "===== matched files ====="
+          find data/raw/gaokao/major -type f | sort || true
+          find data/stage/01_list_index -type f -name 'gaokao_major*' | sort || true
+          find data/runs -type f -name 'stage_01_manifest.json' | sort || true
+
+      - name: Configure git
+        if: steps.check-results.outputs.status == 'success'
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --cached --quiet || git commit -m "chore(data): update gaokao major stage01 [skip ci]"
-          git push
 
-      - name: Upload artifacts
+      - name: Commit and push outputs
+        if: steps.check-results.outputs.status == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add -f data/raw/gaokao/major/ data/stage/01_list_index/ data/runs/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "🤖 Update gaokao major list outputs - $(date +%Y-%m-%d) [skip ci]"
+
+          for i in 1 2 3; do
+            echo "Push attempt $i"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}" || {
+              git rebase --abort || true
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+            }
+
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              echo "Push succeeded"
+              exit 0
+            fi
+
+            echo "Push failed, retrying..."
+            sleep 5
+          done
+
+          echo "Push failed after retries"
+          exit 1
+
+      - name: Upload outputs artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: gaokao-major-stage01
+          name: gaokao-major-list-output
           path: |
-            data/raw/gaokao/major/list_pages/**
-            data/stage/01_list_index/**
+            data/raw/gaokao/major/
+            data/stage/01_list_index/
+            data/runs/
+          if-no-files-found: warn
+          retention-days: 7
+          overwrite: true
