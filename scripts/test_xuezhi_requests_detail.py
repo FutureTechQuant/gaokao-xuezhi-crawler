@@ -51,7 +51,7 @@ def read_jsonl(path):
 
     return rows
 
-def test_one(row, referer, label):
+def run_one(row, referer, label):
     url = row['detail_url']
     headers = dict(HEADERS)
     headers['Referer'] = referer
