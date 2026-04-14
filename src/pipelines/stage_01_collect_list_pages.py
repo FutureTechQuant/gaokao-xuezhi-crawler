@@ -6,10 +6,10 @@ from playwright.sync_api import sync_playwright
 
 from src.common.logger import get_logger
 from src.common.paths import list_index_dir, list_raw_dir, make_run_id, run_dir
-from src.sources.gaokao.list_spider import crawl_major_list as crawl_gaokao_major_list
-from src.sources.gaokao.list_spider import crawl_university_list as crawl_gaokao_university_list
-from src.sources.xuezhi.list_spider import crawl_career_list as crawl_xuezhi_career_list
-from src.sources.xuezhi.list_spider import crawl_major_list as crawl_xuezhi_major_list
+from src.sources.gaokao.major_list_spider import crawl_major_list as crawl_gaokao_major_list
+from src.sources.gaokao.university_list_spider import crawl_university_list as crawl_gaokao_university_list
+from src.sources.xuezhi.career_list_spider import crawl_career_list as crawl_xuezhi_career_list
+from src.sources.xuezhi.major_list_spider import crawl_major_list as crawl_xuezhi_major_list
 from src.storage.manifest import build_manifest
 from src.storage.writer import write_json, write_jsonl, write_text
 
@@ -69,6 +69,7 @@ def run(target='all', run_id=None, headless=None):
                 result = func(context, save_html=_save_html_factory(raw_dir))
                 index_path = stage_dir / f'{task_name}.jsonl'
                 meta_path = stage_dir / f'{task_name}.meta.json'
+
                 write_jsonl(index_path, result['items'])
                 write_json(meta_path, {
                     'task': task_name,
@@ -78,6 +79,7 @@ def run(target='all', run_id=None, headless=None):
                     'list_url': result['list_url'],
                     'pages': result['pages'],
                 })
+
                 tasks_summary.append({
                     'task': task_name,
                     'source': source,
@@ -101,7 +103,11 @@ def run(target='all', run_id=None, headless=None):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--target', default='all', choices=['all', 'gaokao_major', 'gaokao_university', 'xuezhi_major', 'xuezhi_career'])
+    parser.add_argument(
+        '--target',
+        default='all',
+        choices=['all', 'gaokao_major', 'gaokao_university', 'xuezhi_major', 'xuezhi_career'],
+    )
     parser.add_argument('--run-id', default=None)
     parser.add_argument('--headed', action='store_true')
     args = parser.parse_args()
