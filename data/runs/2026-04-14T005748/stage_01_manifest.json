@@ -1,0 +1,16 @@
+{
+  "stage": "stage_01_collect_list_pages",
+  "run_id": "2026-04-14T005748",
+  "created_at": "2026-04-14T00:58:08.747317+00:00",
+  "tasks": [
+    {
+      "task": "xuezhi_career",
+      "source": "xuezhi",
+      "entity_type": "career",
+      "count": 140,
+      "index_path": "data/stage/01_list_index/2026-04-14T005748/xuezhi_career.jsonl",
+      "meta_path": "data/stage/01_list_index/2026-04-14T005748/xuezhi_career.meta.json",
+      "raw_dir": "data/raw/xuezhi/career/list_pages/2026-04-14T005748"
+    }
+  ]
+}

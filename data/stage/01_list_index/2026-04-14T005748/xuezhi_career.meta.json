@@ -1,0 +1,83 @@
+{
+  "task": "xuezhi_career",
+  "source": "xuezhi",
+  "entity_type": "career",
+  "count": 140,
+  "list_url": "https://xz.chsi.com.cn/occupation/index.action",
+  "pages": [
+    {
+      "name": "0001_career.html",
+      "url": "https://xz.chsi.com.cn/occupation/index.action"
+    },
+    {
+      "page_no": 1,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=0&curPage=1&pageCount=10&totalCount=0&_t=1776128273355",
+      "count": 10
+    },
+    {
+      "page_no": 2,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=10&curPage=2&pageCount=10&totalCount=0&_t=1776128279824",
+      "count": 10
+    },
+    {
+      "page_no": 3,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=20&curPage=3&pageCount=10&totalCount=0&_t=1776128280778",
+      "count": 10
+    },
+    {
+      "page_no": 4,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=30&curPage=4&pageCount=10&totalCount=0&_t=1776128281722",
+      "count": 10
+    },
+    {
+      "page_no": 5,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=40&curPage=5&pageCount=10&totalCount=0&_t=1776128282400",
+      "count": 10
+    },
+    {
+      "page_no": 6,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=50&curPage=6&pageCount=10&totalCount=0&_t=1776128283345",
+      "count": 10
+    },
+    {
+      "page_no": 7,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=60&curPage=7&pageCount=10&totalCount=0&_t=1776128284065",
+      "count": 10
+    },
+    {
+      "page_no": 8,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=70&curPage=8&pageCount=10&totalCount=0&_t=1776128284593",
+      "count": 10
+    },
+    {
+      "page_no": 9,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=80&curPage=9&pageCount=10&totalCount=0&_t=1776128285117",
+      "count": 10
+    },
+    {
+      "page_no": 10,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=90&curPage=10&pageCount=10&totalCount=0&_t=1776128285670",
+      "count": 10
+    },
+    {
+      "page_no": 11,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=100&curPage=11&pageCount=10&totalCount=0&_t=1776128286217",
+      "count": 10
+    },
+    {
+      "page_no": 12,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=110&curPage=12&pageCount=10&totalCount=0&_t=1776128286686",
+      "count": 10
+    },
+    {
+      "page_no": 13,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=120&curPage=13&pageCount=10&totalCount=0&_t=1776128287289",
+      "count": 10
+    },
+    {
+      "page_no": 14,
+      "url": "https://xz.chsi.com.cn/occupation/searchbyhy.action?industryId=&ktId=&name=&start=130&curPage=14&pageCount=10&totalCount=0&_t=1776128287852",
+      "count": 10
+    }
+  ]
+}
