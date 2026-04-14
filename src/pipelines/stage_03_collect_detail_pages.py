@@ -51,26 +51,37 @@ def _read_jsonl(path: Path):
     if not text:
         return []
 
+    # Check if it's a JSON array
     if text.startswith('['):
-        data = json.loads(text)
-        if isinstance(data, list):
-            return data
-        raise ValueError(f'expected JSON array in {path}')
+        try:
+            data = json.loads(text)
+            if isinstance(data, list):
+                return data
+        except json.JSONDecodeError:
+            pass
 
-    decoder = json.JSONDecoder()
+    # Parse as concatenated JSON objects separated by '\n{'
     rows = []
+    decoder = json.JSONDecoder()
     i = 0
     n = len(text)
 
     while i < n:
+        # Skip any leading whitespace
         while i < n and text[i].isspace():
             i += 1
         if i >= n:
             break
 
-        obj, end = decoder.raw_decode(text, i)
-        rows.append(obj)
-        i = end
+        try:
+            obj, end = decoder.raw_decode(text, i)
+            rows.append(obj)
+            i = end
+            # Skip the '\n{' separator if present
+            if i + 2 <= n and text[i:i+2] == '\\n':
+                i += 2
+        except json.JSONDecodeError as e:
+            raise ValueError(f'Invalid JSON in {path} at position {i}: {str(e)}')
 
     return rows
 
@@ -171,6 +182,11 @@ def run(target='all', input_path=None, run_id=None, headless=None, limit=0):
                 results = []
                 failed = []
                 for idx, row in enumerate(rows, start=1):
+                    # Skip rows with empty detail_url
+                    if not row.get('detail_url', '').strip():
+                        logger.info('skip detail idx=%s (empty url)', idx)
+                        continue
+
                     file_name = f'{idx:08d}.html'
                     try:
                         result = func(
