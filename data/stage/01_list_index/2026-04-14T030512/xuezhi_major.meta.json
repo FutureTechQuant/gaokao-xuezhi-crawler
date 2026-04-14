@@ -1,0 +1,18 @@
+{
+  "task": "xuezhi_major",
+  "source": "xuezhi",
+  "entity_type": "major",
+  "count": 1,
+  "list_url": "https://xz.chsi.com.cn/speciality/index.action",
+  "pages": [
+    {
+      "name": "0001_major.html",
+      "url": "https://xz.chsi.com.cn/speciality/index.action"
+    },
+    {
+      "page_no": 1,
+      "url": "https://xz.chsi.com.cn/speciality/list.action?start=0&phbType=1&cc=&ml=&xk=&zymc=&_t=1776135918012",
+      "count": 1
+    }
+  ]
+}
