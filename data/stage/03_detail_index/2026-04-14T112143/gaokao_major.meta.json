@@ -1,0 +1,15 @@
+{
+  "task": "gaokao_major",
+  "source": "gaokao",
+  "entity_type": "major",
+  "input_path": "data\\stage\\01_list_index\\2026-04-14T021946\\gaokao_major.jsonl",
+  "count": 4,
+  "failed_count": 1,
+  "failed": [
+    {
+      "detail_row_no": 4,
+      "detail_url": "",
+      "error": "Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}
