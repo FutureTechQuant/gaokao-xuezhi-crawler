@@ -1,0 +1,1976 @@
+{
+  "task": "gaokao_major",
+  "source": "gaokao",
+  "entity_type": "major",
+  "count": 1703,
+  "list_url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+  "pages": [
+    {
+      "name": "0001_本科_普通教育_哲学_哲学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "哲学",
+      "major_class_name": "哲学类"
+    },
+    {
+      "name": "0002_本科_普通教育_经济学_经济学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "经济学",
+      "major_class_name": "经济学类"
+    },
+    {
+      "name": "0003_本科_普通教育_经济学_财政学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "经济学",
+      "major_class_name": "财政学类"
+    },
+    {
+      "name": "0004_本科_普通教育_经济学_金融学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "经济学",
+      "major_class_name": "金融学类"
+    },
+    {
+      "name": "0005_本科_普通教育_经济学_经济与贸易类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "经济学",
+      "major_class_name": "经济与贸易类"
+    },
+    {
+      "name": "0006_本科_普通教育_法学_法学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "法学类"
+    },
+    {
+      "name": "0007_本科_普通教育_法学_政治学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "政治学类"
+    },
+    {
+      "name": "0008_本科_普通教育_法学_社会学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "社会学类"
+    },
+    {
+      "name": "0009_本科_普通教育_法学_民族学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "民族学类"
+    },
+    {
+      "name": "0010_本科_普通教育_法学_马克思主义理论类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "马克思主义理论类"
+    },
+    {
+      "name": "0011_本科_普通教育_法学_公安学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "法学",
+      "major_class_name": "公安学类"
+    },
+    {
+      "name": "0012_本科_普通教育_教育学_教育学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "教育学",
+      "major_class_name": "教育学类"
+    },
+    {
+      "name": "0013_本科_普通教育_教育学_体育学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "教育学",
+      "major_class_name": "体育学类"
+    },
+    {
+      "name": "0014_本科_普通教育_文学_中国语言文学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "文学",
+      "major_class_name": "中国语言文学类"
+    },
+    {
+      "name": "0015_本科_普通教育_文学_外国语言文学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "文学",
+      "major_class_name": "外国语言文学类"
+    },
+    {
+      "name": "0016_本科_普通教育_文学_新闻传播学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "文学",
+      "major_class_name": "新闻传播学类"
+    },
+    {
+      "name": "0017_本科_普通教育_历史学_历史学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "历史学",
+      "major_class_name": "历史学类"
+    },
+    {
+      "name": "0018_本科_普通教育_理学_数学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "数学类"
+    },
+    {
+      "name": "0019_本科_普通教育_理学_物理学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "物理学类"
+    },
+    {
+      "name": "0020_本科_普通教育_理学_化学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "化学类"
+    },
+    {
+      "name": "0021_本科_普通教育_理学_天文学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "天文学类"
+    },
+    {
+      "name": "0022_本科_普通教育_理学_地理科学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "地理科学类"
+    },
+    {
+      "name": "0023_本科_普通教育_理学_大气科学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "大气科学类"
+    },
+    {
+      "name": "0024_本科_普通教育_理学_海洋科学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "海洋科学类"
+    },
+    {
+      "name": "0025_本科_普通教育_理学_地球物理学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "地球物理学类"
+    },
+    {
+      "name": "0026_本科_普通教育_理学_地质学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "地质学类"
+    },
+    {
+      "name": "0027_本科_普通教育_理学_生物科学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "生物科学类"
+    },
+    {
+      "name": "0028_本科_普通教育_理学_心理学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "心理学类"
+    },
+    {
+      "name": "0029_本科_普通教育_理学_统计学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "理学",
+      "major_class_name": "统计学类"
+    },
+    {
+      "name": "0030_本科_普通教育_工学_力学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "力学类"
+    },
+    {
+      "name": "0031_本科_普通教育_工学_机械类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "机械类"
+    },
+    {
+      "name": "0032_本科_普通教育_工学_仪器类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "仪器类"
+    },
+    {
+      "name": "0033_本科_普通教育_工学_材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "材料类"
+    },
+    {
+      "name": "0034_本科_普通教育_工学_能源动力类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "能源动力类"
+    },
+    {
+      "name": "0035_本科_普通教育_工学_电气类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "电气类"
+    },
+    {
+      "name": "0036_本科_普通教育_工学_电子信息类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "电子信息类"
+    },
+    {
+      "name": "0037_本科_普通教育_工学_自动化类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "自动化类"
+    },
+    {
+      "name": "0038_本科_普通教育_工学_计算机类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "计算机类"
+    },
+    {
+      "name": "0039_本科_普通教育_工学_土木类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "土木类"
+    },
+    {
+      "name": "0040_本科_普通教育_工学_水利类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "水利类"
+    },
+    {
+      "name": "0041_本科_普通教育_工学_测绘类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "测绘类"
+    },
+    {
+      "name": "0042_本科_普通教育_工学_化工与制药类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "化工与制药类"
+    },
+    {
+      "name": "0043_本科_普通教育_工学_地质类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "地质类"
+    },
+    {
+      "name": "0044_本科_普通教育_工学_矿业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "矿业类"
+    },
+    {
+      "name": "0045_本科_普通教育_工学_纺织类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "纺织类"
+    },
+    {
+      "name": "0046_本科_普通教育_工学_轻工类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "轻工类"
+    },
+    {
+      "name": "0047_本科_普通教育_工学_交通运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "交通运输类"
+    },
+    {
+      "name": "0048_本科_普通教育_工学_海洋工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "海洋工程类"
+    },
+    {
+      "name": "0049_本科_普通教育_工学_航空航天类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "航空航天类"
+    },
+    {
+      "name": "0050_本科_普通教育_工学_兵器类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "兵器类"
+    },
+    {
+      "name": "0051_本科_普通教育_工学_核工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "核工程类"
+    },
+    {
+      "name": "0052_本科_普通教育_工学_农业工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "农业工程类"
+    },
+    {
+      "name": "0053_本科_普通教育_工学_林业工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "林业工程类"
+    },
+    {
+      "name": "0054_本科_普通教育_工学_环境科学与工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "环境科学与工程类"
+    },
+    {
+      "name": "0055_本科_普通教育_工学_生物医学工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "生物医学工程类"
+    },
+    {
+      "name": "0056_本科_普通教育_工学_食品科学与工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "食品科学与工程类"
+    },
+    {
+      "name": "0057_本科_普通教育_工学_建筑类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "建筑类"
+    },
+    {
+      "name": "0058_本科_普通教育_工学_安全科学与工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "安全科学与工程类"
+    },
+    {
+      "name": "0059_本科_普通教育_工学_生物工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "生物工程类"
+    },
+    {
+      "name": "0060_本科_普通教育_工学_公安技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "公安技术类"
+    },
+    {
+      "name": "0061_本科_普通教育_工学_交叉工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "工学",
+      "major_class_name": "交叉工程类"
+    },
+    {
+      "name": "0062_本科_普通教育_农学_植物生产类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "植物生产类"
+    },
+    {
+      "name": "0063_本科_普通教育_农学_自然保护与环境生态类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "自然保护与环境生态类"
+    },
+    {
+      "name": "0064_本科_普通教育_农学_动物生产类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "动物生产类"
+    },
+    {
+      "name": "0065_本科_普通教育_农学_动物医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "动物医学类"
+    },
+    {
+      "name": "0066_本科_普通教育_农学_林学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "林学类"
+    },
+    {
+      "name": "0067_本科_普通教育_农学_水产类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "水产类"
+    },
+    {
+      "name": "0068_本科_普通教育_农学_草学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "农学",
+      "major_class_name": "草学类"
+    },
+    {
+      "name": "0069_本科_普通教育_医学_基础医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "基础医学类"
+    },
+    {
+      "name": "0070_本科_普通教育_医学_临床医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "临床医学类"
+    },
+    {
+      "name": "0071_本科_普通教育_医学_口腔医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "口腔医学类"
+    },
+    {
+      "name": "0072_本科_普通教育_医学_公共卫生与预防医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "公共卫生与预防医学类"
+    },
+    {
+      "name": "0073_本科_普通教育_医学_中医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "中医学类"
+    },
+    {
+      "name": "0074_本科_普通教育_医学_中西医结合类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "中西医结合类"
+    },
+    {
+      "name": "0075_本科_普通教育_医学_药学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "药学类"
+    },
+    {
+      "name": "0076_本科_普通教育_医学_中药学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "中药学类"
+    },
+    {
+      "name": "0077_本科_普通教育_医学_法医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "法医学类"
+    },
+    {
+      "name": "0078_本科_普通教育_医学_医学技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "医学技术类"
+    },
+    {
+      "name": "0079_本科_普通教育_医学_护理学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "医学",
+      "major_class_name": "护理学类"
+    },
+    {
+      "name": "0080_本科_普通教育_管理学_管理科学与工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "管理科学与工程类"
+    },
+    {
+      "name": "0081_本科_普通教育_管理学_工商管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "工商管理类"
+    },
+    {
+      "name": "0082_本科_普通教育_管理学_农业经济管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "农业经济管理类"
+    },
+    {
+      "name": "0083_本科_普通教育_管理学_公共管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "公共管理类"
+    },
+    {
+      "name": "0084_本科_普通教育_管理学_图书情报与档案管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "图书情报与档案管理类"
+    },
+    {
+      "name": "0085_本科_普通教育_管理学_物流管理与工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "物流管理与工程类"
+    },
+    {
+      "name": "0086_本科_普通教育_管理学_工业工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "工业工程类"
+    },
+    {
+      "name": "0087_本科_普通教育_管理学_电子商务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "电子商务类"
+    },
+    {
+      "name": "0088_本科_普通教育_管理学_旅游管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "管理学",
+      "major_class_name": "旅游管理类"
+    },
+    {
+      "name": "0089_本科_普通教育_艺术学_艺术学理论类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "艺术学",
+      "major_class_name": "艺术学理论类"
+    },
+    {
+      "name": "0090_本科_普通教育_艺术学_音乐与舞蹈学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "艺术学",
+      "major_class_name": "音乐与舞蹈学类"
+    },
+    {
+      "name": "0091_本科_普通教育_艺术学_戏剧与影视学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "艺术学",
+      "major_class_name": "戏剧与影视学类"
+    },
+    {
+      "name": "0092_本科_普通教育_艺术学_美术学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "艺术学",
+      "major_class_name": "美术学类"
+    },
+    {
+      "name": "0093_本科_普通教育_艺术学_设计学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（普通教育）",
+      "discipline_name": "艺术学",
+      "major_class_name": "设计学类"
+    },
+    {
+      "name": "0094_本科_职业教育_农林牧渔_农业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "农业类"
+    },
+    {
+      "name": "0095_本科_职业教育_农林牧渔_林业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "林业类"
+    },
+    {
+      "name": "0096_本科_职业教育_农林牧渔_畜牧业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "畜牧业类"
+    },
+    {
+      "name": "0097_本科_职业教育_农林牧渔_渔业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "渔业类"
+    },
+    {
+      "name": "0098_本科_职业教育_资源环境与安全_资源勘查类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "资源勘查类"
+    },
+    {
+      "name": "0099_本科_职业教育_资源环境与安全_地质类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "地质类"
+    },
+    {
+      "name": "0100_本科_职业教育_资源环境与安全_测绘地理信息类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "测绘地理信息类"
+    },
+    {
+      "name": "0101_本科_职业教育_资源环境与安全_石油与天然气类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "石油与天然气类"
+    },
+    {
+      "name": "0102_本科_职业教育_资源环境与安全_煤炭类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "煤炭类"
+    },
+    {
+      "name": "0103_本科_职业教育_资源环境与安全_气象类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "气象类"
+    },
+    {
+      "name": "0104_本科_职业教育_资源环境与安全_环境保护类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "环境保护类"
+    },
+    {
+      "name": "0105_本科_职业教育_资源环境与安全_安全类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "安全类"
+    },
+    {
+      "name": "0106_本科_职业教育_能源动力与材料_电力技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "电力技术类"
+    },
+    {
+      "name": "0107_本科_职业教育_能源动力与材料_热能与发电工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "热能与发电工程类"
+    },
+    {
+      "name": "0108_本科_职业教育_能源动力与材料_新能源发电工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "新能源发电工程类"
+    },
+    {
+      "name": "0109_本科_职业教育_能源动力与材料_黑色金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "黑色金属材料类"
+    },
+    {
+      "name": "0110_本科_职业教育_能源动力与材料_有色金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "有色金属材料类"
+    },
+    {
+      "name": "0111_本科_职业教育_能源动力与材料_非金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "非金属材料类"
+    },
+    {
+      "name": "0112_本科_职业教育_能源动力与材料_建筑材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "建筑材料类"
+    },
+    {
+      "name": "0113_本科_职业教育_土木建筑_建筑设计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建筑设计类"
+    },
+    {
+      "name": "0114_本科_职业教育_土木建筑_城乡规划与管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "城乡规划与管理类"
+    },
+    {
+      "name": "0115_本科_职业教育_土木建筑_土建施工类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "土建施工类"
+    },
+    {
+      "name": "0116_本科_职业教育_土木建筑_建筑设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建筑设备类"
+    },
+    {
+      "name": "0117_本科_职业教育_土木建筑_建设工程管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建设工程管理类"
+    },
+    {
+      "name": "0118_本科_职业教育_土木建筑_市政工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "市政工程类"
+    },
+    {
+      "name": "0119_本科_职业教育_土木建筑_房地产类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "房地产类"
+    },
+    {
+      "name": "0120_本科_职业教育_水利_水文水资源类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "水利",
+      "major_class_name": "水文水资源类"
+    },
+    {
+      "name": "0121_本科_职业教育_水利_水利工程与管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "水利",
+      "major_class_name": "水利工程与管理类"
+    },
+    {
+      "name": "0122_本科_职业教育_水利_水利水电设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "水利",
+      "major_class_name": "水利水电设备类"
+    },
+    {
+      "name": "0123_本科_职业教育_水利_水土保持与水环境类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "水利",
+      "major_class_name": "水土保持与水环境类"
+    },
+    {
+      "name": "0124_本科_职业教育_装备制造_机械设计制造类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "机械设计制造类"
+    },
+    {
+      "name": "0125_本科_职业教育_装备制造_机电设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "机电设备类"
+    },
+    {
+      "name": "0126_本科_职业教育_装备制造_自动化类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "自动化类"
+    },
+    {
+      "name": "0127_本科_职业教育_装备制造_轨道装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "轨道装备类"
+    },
+    {
+      "name": "0128_本科_职业教育_装备制造_船舶与海洋工程装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "船舶与海洋工程装备类"
+    },
+    {
+      "name": "0129_本科_职业教育_装备制造_航空装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "航空装备类"
+    },
+    {
+      "name": "0130_本科_职业教育_装备制造_汽车制造类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "装备制造",
+      "major_class_name": "汽车制造类"
+    },
+    {
+      "name": "0131_本科_职业教育_生物与化工_生物技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "生物与化工",
+      "major_class_name": "生物技术类"
+    },
+    {
+      "name": "0132_本科_职业教育_生物与化工_化工技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "生物与化工",
+      "major_class_name": "化工技术类"
+    },
+    {
+      "name": "0133_本科_职业教育_轻工纺织_轻化工类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "轻化工类"
+    },
+    {
+      "name": "0134_本科_职业教育_轻工纺织_包装类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "包装类"
+    },
+    {
+      "name": "0135_本科_职业教育_轻工纺织_印刷类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "印刷类"
+    },
+    {
+      "name": "0136_本科_职业教育_轻工纺织_纺织服装类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "纺织服装类"
+    },
+    {
+      "name": "0137_本科_职业教育_食品药品与粮食_食品类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "食品类"
+    },
+    {
+      "name": "0138_本科_职业教育_食品药品与粮食_药品与医疗器械类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "药品与医疗器械类"
+    },
+    {
+      "name": "0139_本科_职业教育_食品药品与粮食_粮食类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "粮食类"
+    },
+    {
+      "name": "0140_本科_职业教育_交通运输_铁道运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "铁道运输类"
+    },
+    {
+      "name": "0141_本科_职业教育_交通运输_道路运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "道路运输类"
+    },
+    {
+      "name": "0142_本科_职业教育_交通运输_水上运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "水上运输类"
+    },
+    {
+      "name": "0143_本科_职业教育_交通运输_航空运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "航空运输类"
+    },
+    {
+      "name": "0144_本科_职业教育_交通运输_城市轨道交通类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "城市轨道交通类"
+    },
+    {
+      "name": "0145_本科_职业教育_交通运输_邮政类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "交通运输",
+      "major_class_name": "邮政类"
+    },
+    {
+      "name": "0146_本科_职业教育_电子与信息_电子信息类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "电子信息类"
+    },
+    {
+      "name": "0147_本科_职业教育_电子与信息_计算机类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "计算机类"
+    },
+    {
+      "name": "0148_本科_职业教育_电子与信息_通信类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "通信类"
+    },
+    {
+      "name": "0149_本科_职业教育_电子与信息_集成电路类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "集成电路类"
+    },
+    {
+      "name": "0150_本科_职业教育_医药卫生_护理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "护理类"
+    },
+    {
+      "name": "0151_本科_职业教育_医药卫生_药学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "药学类"
+    },
+    {
+      "name": "0152_本科_职业教育_医药卫生_中医药类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "中医药类"
+    },
+    {
+      "name": "0153_本科_职业教育_医药卫生_医学技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "医学技术类"
+    },
+    {
+      "name": "0154_本科_职业教育_医药卫生_康复治疗类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "康复治疗类"
+    },
+    {
+      "name": "0155_本科_职业教育_医药卫生_公共卫生与卫生管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "公共卫生与卫生管理类"
+    },
+    {
+      "name": "0156_本科_职业教育_医药卫生_健康管理与促进类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "健康管理与促进类"
+    },
+    {
+      "name": "0157_本科_职业教育_医药卫生_眼视光类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "眼视光类"
+    },
+    {
+      "name": "0158_本科_职业教育_财经商贸_财政税务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "财政税务类"
+    },
+    {
+      "name": "0159_本科_职业教育_财经商贸_金融类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "金融类"
+    },
+    {
+      "name": "0160_本科_职业教育_财经商贸_财务会计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "财务会计类"
+    },
+    {
+      "name": "0161_本科_职业教育_财经商贸_统计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "统计类"
+    },
+    {
+      "name": "0162_本科_职业教育_财经商贸_经济贸易类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "经济贸易类"
+    },
+    {
+      "name": "0163_本科_职业教育_财经商贸_工商管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "工商管理类"
+    },
+    {
+      "name": "0164_本科_职业教育_财经商贸_电子商务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "电子商务类"
+    },
+    {
+      "name": "0165_本科_职业教育_财经商贸_物流类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "物流类"
+    },
+    {
+      "name": "0166_本科_职业教育_旅游_旅游类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "旅游",
+      "major_class_name": "旅游类"
+    },
+    {
+      "name": "0167_本科_职业教育_旅游_餐饮类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "旅游",
+      "major_class_name": "餐饮类"
+    },
+    {
+      "name": "0168_本科_职业教育_文化艺术_艺术设计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "艺术设计类"
+    },
+    {
+      "name": "0169_本科_职业教育_文化艺术_表演艺术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "表演艺术类"
+    },
+    {
+      "name": "0170_本科_职业教育_文化艺术_文化服务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "文化服务类"
+    },
+    {
+      "name": "0171_本科_职业教育_新闻传播_新闻出版类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "新闻传播",
+      "major_class_name": "新闻出版类"
+    },
+    {
+      "name": "0172_本科_职业教育_新闻传播_广播影视类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "新闻传播",
+      "major_class_name": "广播影视类"
+    },
+    {
+      "name": "0173_本科_职业教育_教育与体育_教育类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "教育类"
+    },
+    {
+      "name": "0174_本科_职业教育_教育与体育_语言类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "语言类"
+    },
+    {
+      "name": "0175_本科_职业教育_教育与体育_体育类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "体育类"
+    },
+    {
+      "name": "0176_本科_职业教育_公安与司法_公安技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "公安技术类"
+    },
+    {
+      "name": "0177_本科_职业教育_公安与司法_侦查类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "侦查类"
+    },
+    {
+      "name": "0178_本科_职业教育_公安与司法_法律实务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "法律实务类"
+    },
+    {
+      "name": "0179_本科_职业教育_公安与司法_法律执行类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "法律执行类"
+    },
+    {
+      "name": "0180_本科_职业教育_公安与司法_司法技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "司法技术类"
+    },
+    {
+      "name": "0181_本科_职业教育_公安与司法_安全防范类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "安全防范类"
+    },
+    {
+      "name": "0182_本科_职业教育_公共管理与服务_公共事业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共事业类"
+    },
+    {
+      "name": "0183_本科_职业教育_公共管理与服务_公共管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共管理类"
+    },
+    {
+      "name": "0184_本科_职业教育_公共管理与服务_公共服务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "本科（职业教育）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共服务类"
+    },
+    {
+      "name": "0185_高职_专科_农林牧渔_农业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "农业类"
+    },
+    {
+      "name": "0186_高职_专科_农林牧渔_林业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "林业类"
+    },
+    {
+      "name": "0187_高职_专科_农林牧渔_畜牧业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "畜牧业类"
+    },
+    {
+      "name": "0188_高职_专科_农林牧渔_渔业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "农林牧渔",
+      "major_class_name": "渔业类"
+    },
+    {
+      "name": "0189_高职_专科_资源环境与安全_资源勘查类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "资源勘查类"
+    },
+    {
+      "name": "0190_高职_专科_资源环境与安全_地质类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "地质类"
+    },
+    {
+      "name": "0191_高职_专科_资源环境与安全_测绘地理信息类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "测绘地理信息类"
+    },
+    {
+      "name": "0192_高职_专科_资源环境与安全_石油与天然气类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "石油与天然气类"
+    },
+    {
+      "name": "0193_高职_专科_资源环境与安全_煤炭类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "煤炭类"
+    },
+    {
+      "name": "0194_高职_专科_资源环境与安全_金属与非金属矿类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "金属与非金属矿类"
+    },
+    {
+      "name": "0195_高职_专科_资源环境与安全_气象类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "气象类"
+    },
+    {
+      "name": "0196_高职_专科_资源环境与安全_环境保护类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "环境保护类"
+    },
+    {
+      "name": "0197_高职_专科_资源环境与安全_安全类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "资源环境与安全",
+      "major_class_name": "安全类"
+    },
+    {
+      "name": "0198_高职_专科_能源动力与材料_电力技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "电力技术类"
+    },
+    {
+      "name": "0199_高职_专科_能源动力与材料_热能与发电工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "热能与发电工程类"
+    },
+    {
+      "name": "0200_高职_专科_能源动力与材料_新能源发电工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "新能源发电工程类"
+    },
+    {
+      "name": "0201_高职_专科_能源动力与材料_黑色金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "黑色金属材料类"
+    },
+    {
+      "name": "0202_高职_专科_能源动力与材料_有色金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "有色金属材料类"
+    },
+    {
+      "name": "0203_高职_专科_能源动力与材料_非金属材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "非金属材料类"
+    },
+    {
+      "name": "0204_高职_专科_能源动力与材料_建筑材料类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "能源动力与材料",
+      "major_class_name": "建筑材料类"
+    },
+    {
+      "name": "0205_高职_专科_土木建筑_建筑设计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建筑设计类"
+    },
+    {
+      "name": "0206_高职_专科_土木建筑_城乡规划与管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "城乡规划与管理类"
+    },
+    {
+      "name": "0207_高职_专科_土木建筑_土建施工类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "土建施工类"
+    },
+    {
+      "name": "0208_高职_专科_土木建筑_建筑设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建筑设备类"
+    },
+    {
+      "name": "0209_高职_专科_土木建筑_建设工程管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "建设工程管理类"
+    },
+    {
+      "name": "0210_高职_专科_土木建筑_市政工程类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "市政工程类"
+    },
+    {
+      "name": "0211_高职_专科_土木建筑_房地产类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "土木建筑",
+      "major_class_name": "房地产类"
+    },
+    {
+      "name": "0212_高职_专科_水利_水文水资源类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "水利",
+      "major_class_name": "水文水资源类"
+    },
+    {
+      "name": "0213_高职_专科_水利_水利工程与管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "水利",
+      "major_class_name": "水利工程与管理类"
+    },
+    {
+      "name": "0214_高职_专科_水利_水利水电设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "水利",
+      "major_class_name": "水利水电设备类"
+    },
+    {
+      "name": "0215_高职_专科_水利_水土保持与水环境类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "水利",
+      "major_class_name": "水土保持与水环境类"
+    },
+    {
+      "name": "0216_高职_专科_装备制造_机械设计制造类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "机械设计制造类"
+    },
+    {
+      "name": "0217_高职_专科_装备制造_机电设备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "机电设备类"
+    },
+    {
+      "name": "0218_高职_专科_装备制造_自动化类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "自动化类"
+    },
+    {
+      "name": "0219_高职_专科_装备制造_轨道装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "轨道装备类"
+    },
+    {
+      "name": "0220_高职_专科_装备制造_船舶与海洋工程装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "船舶与海洋工程装备类"
+    },
+    {
+      "name": "0221_高职_专科_装备制造_航空装备类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "航空装备类"
+    },
+    {
+      "name": "0222_高职_专科_装备制造_汽车制造类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "装备制造",
+      "major_class_name": "汽车制造类"
+    },
+    {
+      "name": "0223_高职_专科_生物与化工_生物技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "生物与化工",
+      "major_class_name": "生物技术类"
+    },
+    {
+      "name": "0224_高职_专科_生物与化工_化工技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "生物与化工",
+      "major_class_name": "化工技术类"
+    },
+    {
+      "name": "0225_高职_专科_轻工纺织_轻化工类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "轻化工类"
+    },
+    {
+      "name": "0226_高职_专科_轻工纺织_包装类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "包装类"
+    },
+    {
+      "name": "0227_高职_专科_轻工纺织_印刷类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "印刷类"
+    },
+    {
+      "name": "0228_高职_专科_轻工纺织_纺织服装类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "轻工纺织",
+      "major_class_name": "纺织服装类"
+    },
+    {
+      "name": "0229_高职_专科_食品药品与粮食_食品类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "食品类"
+    },
+    {
+      "name": "0230_高职_专科_食品药品与粮食_药品与医疗器械类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "药品与医疗器械类"
+    },
+    {
+      "name": "0231_高职_专科_食品药品与粮食_粮食类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "食品药品与粮食",
+      "major_class_name": "粮食类"
+    },
+    {
+      "name": "0232_高职_专科_交通运输_铁道运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "铁道运输类"
+    },
+    {
+      "name": "0233_高职_专科_交通运输_道路运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "道路运输类"
+    },
+    {
+      "name": "0234_高职_专科_交通运输_水上运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "水上运输类"
+    },
+    {
+      "name": "0235_高职_专科_交通运输_航空运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "航空运输类"
+    },
+    {
+      "name": "0236_高职_专科_交通运输_管道运输类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "管道运输类"
+    },
+    {
+      "name": "0237_高职_专科_交通运输_城市轨道交通类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "城市轨道交通类"
+    },
+    {
+      "name": "0238_高职_专科_交通运输_邮政类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "交通运输",
+      "major_class_name": "邮政类"
+    },
+    {
+      "name": "0239_高职_专科_电子与信息_电子信息类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "电子信息类"
+    },
+    {
+      "name": "0240_高职_专科_电子与信息_计算机类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "计算机类"
+    },
+    {
+      "name": "0241_高职_专科_电子与信息_通信类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "通信类"
+    },
+    {
+      "name": "0242_高职_专科_电子与信息_集成电路类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "电子与信息",
+      "major_class_name": "集成电路类"
+    },
+    {
+      "name": "0243_高职_专科_医药卫生_临床医学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "临床医学类"
+    },
+    {
+      "name": "0244_高职_专科_医药卫生_护理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "护理类"
+    },
+    {
+      "name": "0245_高职_专科_医药卫生_药学类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "药学类"
+    },
+    {
+      "name": "0246_高职_专科_医药卫生_中医药类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "中医药类"
+    },
+    {
+      "name": "0247_高职_专科_医药卫生_医学技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "医学技术类"
+    },
+    {
+      "name": "0248_高职_专科_医药卫生_康复治疗类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "康复治疗类"
+    },
+    {
+      "name": "0249_高职_专科_医药卫生_公共卫生与卫生管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "公共卫生与卫生管理类"
+    },
+    {
+      "name": "0250_高职_专科_医药卫生_健康管理与促进类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "健康管理与促进类"
+    },
+    {
+      "name": "0251_高职_专科_医药卫生_眼视光类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "医药卫生",
+      "major_class_name": "眼视光类"
+    },
+    {
+      "name": "0252_高职_专科_财经商贸_财政税务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "财政税务类"
+    },
+    {
+      "name": "0253_高职_专科_财经商贸_金融类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "金融类"
+    },
+    {
+      "name": "0254_高职_专科_财经商贸_财务会计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "财务会计类"
+    },
+    {
+      "name": "0255_高职_专科_财经商贸_统计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "统计类"
+    },
+    {
+      "name": "0256_高职_专科_财经商贸_经济贸易类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "经济贸易类"
+    },
+    {
+      "name": "0257_高职_专科_财经商贸_工商管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "工商管理类"
+    },
+    {
+      "name": "0258_高职_专科_财经商贸_电子商务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "电子商务类"
+    },
+    {
+      "name": "0259_高职_专科_财经商贸_物流类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "财经商贸",
+      "major_class_name": "物流类"
+    },
+    {
+      "name": "0260_高职_专科_旅游_旅游类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "旅游",
+      "major_class_name": "旅游类"
+    },
+    {
+      "name": "0261_高职_专科_旅游_餐饮类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "旅游",
+      "major_class_name": "餐饮类"
+    },
+    {
+      "name": "0262_高职_专科_文化艺术_艺术设计类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "艺术设计类"
+    },
+    {
+      "name": "0263_高职_专科_文化艺术_表演艺术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "表演艺术类"
+    },
+    {
+      "name": "0264_高职_专科_文化艺术_民族文化艺术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "民族文化艺术类"
+    },
+    {
+      "name": "0265_高职_专科_文化艺术_文化服务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "文化艺术",
+      "major_class_name": "文化服务类"
+    },
+    {
+      "name": "0266_高职_专科_新闻传播_新闻出版类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "新闻传播",
+      "major_class_name": "新闻出版类"
+    },
+    {
+      "name": "0267_高职_专科_新闻传播_广播影视类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "新闻传播",
+      "major_class_name": "广播影视类"
+    },
+    {
+      "name": "0268_高职_专科_教育与体育_教育类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "教育类"
+    },
+    {
+      "name": "0269_高职_专科_教育与体育_语言类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "语言类"
+    },
+    {
+      "name": "0270_高职_专科_教育与体育_体育类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "教育与体育",
+      "major_class_name": "体育类"
+    },
+    {
+      "name": "0271_高职_专科_公安与司法_公安管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "公安管理类"
+    },
+    {
+      "name": "0272_高职_专科_公安与司法_公安技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "公安技术类"
+    },
+    {
+      "name": "0273_高职_专科_公安与司法_侦查类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "侦查类"
+    },
+    {
+      "name": "0274_高职_专科_公安与司法_法律实务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "法律实务类"
+    },
+    {
+      "name": "0275_高职_专科_公安与司法_法律执行类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "法律执行类"
+    },
+    {
+      "name": "0276_高职_专科_公安与司法_司法技术类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "司法技术类"
+    },
+    {
+      "name": "0277_高职_专科_公安与司法_安全防范类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公安与司法",
+      "major_class_name": "安全防范类"
+    },
+    {
+      "name": "0278_高职_专科_公共管理与服务_公共事业类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共事业类"
+    },
+    {
+      "name": "0279_高职_专科_公共管理与服务_公共管理类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共管理类"
+    },
+    {
+      "name": "0280_高职_专科_公共管理与服务_公共服务类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "公共服务类"
+    },
+    {
+      "name": "0281_高职_专科_公共管理与服务_文秘类.html",
+      "url": "https://gaokao.chsi.com.cn/zyk/zybk/",
+      "level_name": "高职（专科）",
+      "discipline_name": "公共管理与服务",
+      "major_class_name": "文秘类"
+    }
+  ]
+}
